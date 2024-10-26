@@ -1,0 +1,10 @@
+-I
+/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug
+-I
+/home/zirer/Qt/6.8.0/gcc_64/./qml
+--resource
+/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmake_blackjack.qrc
+--resource
+/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/appblackjack_raw_qml_0.qrc
+--module
+blackjack

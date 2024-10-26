@@ -1,0 +1,6 @@
+module blackjack
+typeinfo appblackjack.qmltypes
+prefer :/blackjack/
+Main 1.0 Main.qml
+Background 1.0 Background.qml
+

@@ -1,0 +1,1 @@
+set(__QT_DEPLOY_TARGET_appblackjack_FILE /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/appblackjack)

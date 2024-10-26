@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/blackjack/">
+    <file alias="Main.qml">/home/zirer/zirerfile/QtProjects/blackjack/Main.qml</file>
+    <file alias="Background.qml">/home/zirer/zirerfile/QtProjects/blackjack/Background.qml</file>
+  </qresource>
+</RCC>
+
