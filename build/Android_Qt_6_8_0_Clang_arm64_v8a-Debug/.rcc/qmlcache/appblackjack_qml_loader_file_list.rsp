@@ -1,2 +1,6 @@
 /blackjack/Main.qml
-/blackjack/Background.qml
+/blackjack/Initial.qml
+/blackjack/Sooss.qml
+/blackjack/Game.qml
+/blackjack/Test1.qml
+/blackjack/Test2.qml

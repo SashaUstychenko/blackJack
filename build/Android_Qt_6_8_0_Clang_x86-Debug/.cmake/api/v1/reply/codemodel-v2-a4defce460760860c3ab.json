@@ -1,0 +1,232 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-dc77731d78df3b814dca.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "blackjack",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "_qt_internal_apk_dependencies::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-_qt_internal_apk_dependencies-Debug-25524809f011cb4badff.json",
+					"name" : "_qt_internal_apk_dependencies",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aab-Debug-85419bf69359b6ae1325.json",
+					"name" : "aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-c4498dc86583af26cfbf.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-6b4869469a51495c9a02.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-6700ca8b9d4ece7dfa35.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-21a137c0b3c388bce008.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk-Debug-46b9b6ff72724257bd37.json",
+					"name" : "apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "apk_all::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apk_all-Debug-98712a41ab1224e03e02.json",
+					"name" : "apk_all",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack-Debug-c2b8e45adbb67d1438ab.json",
+					"name" : "appblackjack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_autogen-Debug-a749c14608e78ee49a9b.json",
+					"name" : "appblackjack_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_autogen_timestamp_deps-Debug-67d9b56b3d31c44f09e9.json",
+					"name" : "appblackjack_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_make_aab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_make_aab-Debug-7a8eb36265561ec4a1a4.json",
+					"name" : "appblackjack_make_aab",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_make_apk::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_make_apk-Debug-2eaa0a3446ef4fce5cc0.json",
+					"name" : "appblackjack_make_apk",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_prepare_apk_dir::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_prepare_apk_dir-Debug-c9bb374627d3b06e1c7a.json",
+					"name" : "appblackjack_prepare_apk_dir",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_qmllint-Debug-6f674e41ed79f56b004a.json",
+					"name" : "appblackjack_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_qmllint_json-Debug-949adb40423fc66b3cc5.json",
+					"name" : "appblackjack_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_qmllint_module-Debug-50b8cc244a6e0a4bcbc3.json",
+					"name" : "appblackjack_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_qmltyperegistration-Debug-419d21ef8f6278d69ab1.json",
+					"name" : "appblackjack_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_tooling-Debug-3b3b9fee095bd2a19b04.json",
+					"name" : "appblackjack_tooling",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "qt_internal_plugins::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-qt_internal_plugins-Debug-0706be0453d428a36149.json",
+					"name" : "qt_internal_plugins",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_x86-Debug",
+		"source" : "/home/zirer/zirerfile/QtProjects/blackjack"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

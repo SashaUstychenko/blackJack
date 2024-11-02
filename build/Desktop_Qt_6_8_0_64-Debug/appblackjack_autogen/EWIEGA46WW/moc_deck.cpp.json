@@ -1,0 +1,24 @@
+{
+    "classes": [
+        {
+            "className": "Deck",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "drawCard",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "Deck",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "deck.h",
+    "outputRevision": 68
+}

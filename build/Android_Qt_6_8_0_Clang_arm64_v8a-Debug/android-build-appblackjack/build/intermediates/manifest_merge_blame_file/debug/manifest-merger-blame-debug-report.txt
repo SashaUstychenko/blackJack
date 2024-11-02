@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.qtproject.example.appblackjack"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml
+10        android:targetSdkVersion="34" />
+10-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:7:5-67
+12-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:7:22-64
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:8:5-81
+13-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:8:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:9:5-79
+14-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:9:22-76
+15
+16    <supports-screens
+16-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:11:5-15:39
+17        android:anyDensity="true"
+17-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:12:9-34
+18        android:largeScreens="true"
+18-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:13:9-36
+19        android:normalScreens="true"
+19-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:14:9-37
+20        android:smallScreens="true" />
+20-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:15:9-36
+21
+22    <permission
+22-->[androidx.core:core:1.10.1] /home/zirer/.gradle/caches/transforms-3/4be2570fd98c550226d6d381b2ee3a14/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+23        android:name="org.qtproject.example.appblackjack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+23-->[androidx.core:core:1.10.1] /home/zirer/.gradle/caches/transforms-3/4be2570fd98c550226d6d381b2ee3a14/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+24        android:protectionLevel="signature" />
+24-->[androidx.core:core:1.10.1] /home/zirer/.gradle/caches/transforms-3/4be2570fd98c550226d6d381b2ee3a14/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+25
+26    <uses-permission android:name="org.qtproject.example.appblackjack.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+26-->[androidx.core:core:1.10.1] /home/zirer/.gradle/caches/transforms-3/4be2570fd98c550226d6d381b2ee3a14/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+26-->[androidx.core:core:1.10.1] /home/zirer/.gradle/caches/transforms-3/4be2570fd98c550226d6d381b2ee3a14/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+27
+28    <application
+28-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:16:5-52:19
+29        android:name="org.qtproject.qt.android.bindings.QtApplication"
+29-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:17:9-71
+30        android:allowBackup="true"
+30-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:21:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.10.1] /home/zirer/.gradle/caches/transforms-3/4be2570fd98c550226d6d381b2ee3a14/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+32        android:debuggable="true"
+33        android:fullBackupOnly="false"
+33-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:22:9-39
+34        android:hardwareAccelerated="true"
+34-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:18:9-43
+35        android:label="appblackjack"
+35-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:19:9-37
+36        android:requestLegacyExternalStorage="true" >
+36-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:20:9-52
+37        <activity
+37-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:23:9-41:20
+38            android:name="org.qtproject.qt.android.bindings.QtActivity"
+38-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:24:13-72
+39            android:configChanges="orientation|uiMode|screenLayout|screenSize|smallestScreenSize|layoutDirection|locale|fontScale|keyboard|keyboardHidden|navigation|mcc|mnc|density"
+39-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:25:13-182
+40            android:exported="true"
+40-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:28:13-36
+41            android:launchMode="singleTop"
+41-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:26:13-43
+42            android:screenOrientation="unspecified" >
+42-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:27:13-52
+43            <intent-filter>
+43-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:29:13-32:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:30:17-69
+44-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:30:25-66
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:31:17-77
+46-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:31:27-74
+47            </intent-filter>
+48
+49            <meta-data
+49-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:34:11-36:48
+50                android:name="android.app.lib_name"
+50-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:35:17-52
+51                android:value="appblackjack" />
+51-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:36:17-45
+52            <meta-data
+52-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:38:11-40:36
+53                android:name="android.app.arguments"
+53-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:39:17-53
+54                android:value="" />
+54-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:40:17-33
+55        </activity>
+56
+57        <provider
+58            android:name="androidx.core.content.FileProvider"
+58-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:44:13-62
+59            android:authorities="org.qtproject.example.appblackjack.qtprovider"
+59-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:45:13-62
+60            android:exported="false"
+60-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:46:13-37
+61            android:grantUriPermissions="true" >
+61-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:47:13-47
+62            <meta-data
+62-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:48:13-50:59
+63                android:name="android.support.FILE_PROVIDER_PATHS"
+63-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:49:17-67
+64                android:resource="@xml/qtprovider_paths" />
+64-->/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/android-build-appblackjack/AndroidManifest.xml:50:17-57
+65        </provider>
+66    </application>
+67
+68</manifest>

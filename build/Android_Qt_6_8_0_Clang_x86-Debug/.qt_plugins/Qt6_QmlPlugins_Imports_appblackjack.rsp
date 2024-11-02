@@ -1,0 +1,14 @@
+-rootPath
+/home/zirer/zirerfile/QtProjects/blackjack
+-cmake-output
+-output-file
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_x86-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appblackjack.cmake
+-importPath
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_x86-Debug/blackjack
+-importPath
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_x86-Debug
+-importPath
+/home/zirer/Qt/6.8.0/android_x86/./qml
+-qrcFiles
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_x86-Debug/.rcc/qmake_blackjack.qrc
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_x86-Debug/.rcc/appblackjack_raw_qml_0.qrc

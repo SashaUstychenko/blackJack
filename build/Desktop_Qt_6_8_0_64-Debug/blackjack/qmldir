@@ -2,5 +2,9 @@ module blackjack
 typeinfo appblackjack.qmltypes
 prefer :/blackjack/
 Main 1.0 Main.qml
-Background 1.0 Background.qml
+Initial 1.0 Initial.qml
+Sooss 1.0 Sooss.qml
+Game 1.0 Game.qml
+Test1 1.0 Test1.qml
+Test2 1.0 Test2.qml
 

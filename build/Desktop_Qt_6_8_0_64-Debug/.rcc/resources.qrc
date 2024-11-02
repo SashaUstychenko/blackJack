@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="resources.qrc">/home/zirer/zirerfile/QtProjects/blackjack/resources.qrc</file>
+  </qresource>
+</RCC>
+

@@ -1,0 +1,1 @@
+set(__QT_DEPLOY_TARGET_appblackjack_FILE /home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_x86-Debug/libappblackjack_x86.so)

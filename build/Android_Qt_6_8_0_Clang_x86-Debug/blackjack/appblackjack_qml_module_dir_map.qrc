@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/blackjack">/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_x86-Debug/blackjack</file>
+
+  </qresource>
+</RCC>

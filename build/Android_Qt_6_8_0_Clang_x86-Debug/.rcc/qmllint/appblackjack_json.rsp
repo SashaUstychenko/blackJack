@@ -1,0 +1,14 @@
+--bare
+-I
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_x86-Debug
+-I
+/home/zirer/Qt/6.8.0/android_x86/./qml
+--resource
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_x86-Debug/.rcc/qmake_blackjack.qrc
+--resource
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_x86-Debug/.rcc/appblackjack_raw_qml_0.qrc
+/home/zirer/zirerfile/QtProjects/blackjack/Main.qml
+/home/zirer/zirerfile/QtProjects/blackjack/Background.qml
+/home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml
+--json
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_x86-Debug/appblackjack_qmllint.json

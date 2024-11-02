@@ -8,4 +8,8 @@
 --resource
 /home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/appblackjack_raw_qml_0.qrc
 /home/zirer/zirerfile/QtProjects/blackjack/Main.qml
-/home/zirer/zirerfile/QtProjects/blackjack/Background.qml
+/home/zirer/zirerfile/QtProjects/blackjack/Initial.qml
+/home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml
+/home/zirer/zirerfile/QtProjects/blackjack/Game.qml
+/home/zirer/zirerfile/QtProjects/blackjack/Test1.qml
+/home/zirer/zirerfile/QtProjects/blackjack/Test2.qml

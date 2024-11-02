@@ -1,5 +1,6 @@
 appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/QObject \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/QVector \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/q20functional.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/q20memory.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/q20type_traits.h \
@@ -95,6 +96,7 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qtypeinfo.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qtypes.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qutf8stringview.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qvector.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qversiontagging.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qxptype_traits.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qyieldcpu.h \
@@ -873,46 +875,46 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets-relwithdebinfo.cmake \
 	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsTargets.cmake \
 	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6QuickTools/Qt6QuickToolsVersionlessTargets.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeCXXInformation.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeGenericSystem.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CheckIncludeFileCXX.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/CheckLibraryExists.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Clang-CXX.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/Clang.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Compiler/GNU.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/FeatureSummary.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/FindOpenGL.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/FindPackageMessage.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/FindPkgConfig.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/FindThreads.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/FindVulkan.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/GNUInstallDirs.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/MacroAddFileDependencies.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Platform/Linux-Clang-CXX.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Platform/Linux-GNU-CXX.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Platform/Linux-GNU.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Platform/Linux-Initialize.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Platform/Linux.cmake \
-	/home/zirer/Qt/Tools/CMake/share/cmake-3.27/Modules/Platform/UnixPaths.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Clang-CXX.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/Clang.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Compiler/GNU.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/FeatureSummary.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/FindOpenGL.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/FindThreads.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/FindVulkan.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/MacroAddFileDependencies.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-Clang-CXX.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/Linux.cmake \
+	/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/Platform/UnixPaths.cmake \
 	/home/zirer/zirerfile/QtProjects/blackjack/CMakeLists.txt \
 	/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appblackjack.cmake \
 	/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.qtc/package-manager/auto-setup.cmake \
-	/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \
-	/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake \
+	/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/CMakeFiles/3.29.3/CMakeCXXCompiler.cmake \
+	/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/CMakeFiles/3.29.3/CMakeSystem.cmake \
 	/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/appblackjack_autogen/moc_predefs.h \
 	/home/zirer/zirerfile/QtProjects/blackjack/card.cpp \
 	/home/zirer/zirerfile/QtProjects/blackjack/card.h \
@@ -927,6 +929,7 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/zirerfile/QtProjects/blackjack/participant.h \
 	/home/zirer/zirerfile/QtProjects/blackjack/player.cpp \
 	/home/zirer/zirerfile/QtProjects/blackjack/player.h \
+	/home/zirer/zirerfile/QtProjects/blackjack/resources.qrc \
 	/home/zirer/zirerfile/QtProjects/blackjack/skin.cpp \
 	/home/zirer/zirerfile/QtProjects/blackjack/skin.h \
 	/usr/include/alloca.h \
@@ -1121,6 +1124,7 @@ appblackjack_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/bits/select.h \
 	/usr/include/x86_64-linux-gnu/bits/setjmp.h \
 	/usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+	/usr/include/x86_64-linux-gnu/bits/stdint-least.h \
 	/usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
 	/usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
 	/usr/include/x86_64-linux-gnu/bits/stdlib-float.h \

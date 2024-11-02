@@ -20,7 +20,7 @@
                         "isFlag": false,
                         "name": "Rank",
                         "values": [
-                            "Ace1",
+                            "Ace",
                             "Two",
                             "Three",
                             "Four",
@@ -32,9 +32,15 @@
                             "Ten",
                             "Jack",
                             "Queen",
-                            "King",
-                            "Ace11"
+                            "King"
                         ]
+                    }
+                ],
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "imagePath",
+                        "returnType": "QString"
                     }
                 ],
                 "object": true,
@@ -76,6 +82,30 @@
             }
         ],
         "inputFile": "card.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Deck",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "drawCard",
+                        "returnType": "QString"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Deck",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "deck.h",
         "outputRevision": 68
     }
 ]

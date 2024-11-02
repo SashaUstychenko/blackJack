@@ -9,10 +9,11 @@ class Card : public QObject
     Q_PROPERTY(int rank READ rank CONSTANT)
     Q_PROPERTY(int suit READ suit CONSTANT)
 
+
 public:
 
     enum Suit { Hearts, Diamonds, Clubs, Spades };
-    enum Rank { Ace1 = 1, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack = 10, Queen = 10, King = 10,Ace11 = 11 };
+    enum Rank { Ace = 1, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack , Queen , King };
 
     Card(Suit suit, Rank rank, QObject *parent = nullptr);
 
@@ -28,6 +29,7 @@ public:
     {
         return suit_;
     }
+    Q_INVOKABLE QString imagePath() const;
 
 
 private :

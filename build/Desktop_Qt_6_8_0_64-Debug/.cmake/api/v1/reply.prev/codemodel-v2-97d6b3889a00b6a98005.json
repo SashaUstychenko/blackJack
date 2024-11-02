@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-9ad61d6cea29f86e12bd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "blackjack",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-803ae19cf7cfcee49afa.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-cc668c28d68293da9b26.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-3fcd9ffebd82dd38d135.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-e61db234ad8ba179aff9.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack-Debug-c57ee88b17bccfd99377.json",
+					"name" : "appblackjack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_autogen-Debug-3f28b1282bcabfb10546.json",
+					"name" : "appblackjack_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_autogen_timestamp_deps-Debug-d93f53d832178b2cd838.json",
+					"name" : "appblackjack_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_qmlimportscan-Debug-8f842572bca2b20941d3.json",
+					"name" : "appblackjack_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_qmllint-Debug-6fe271e8b93e6d46d832.json",
+					"name" : "appblackjack_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_qmllint_json-Debug-5874375bcba5e305a372.json",
+					"name" : "appblackjack_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_qmllint_module-Debug-43ec50972bbe39bbfcec.json",
+					"name" : "appblackjack_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_qmltyperegistration-Debug-3aa6875224af66eaef51.json",
+					"name" : "appblackjack_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appblackjack_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appblackjack_tooling-Debug-87a1eb1bd53fde01e773.json",
+					"name" : "appblackjack_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug",
+		"source" : "/home/zirer/zirerfile/QtProjects/blackjack"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

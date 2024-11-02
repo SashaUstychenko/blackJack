@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml</file>
+        <file>skins</file>
+        <file>sound</file>
+    </qresource>
+</RCC>
