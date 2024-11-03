@@ -1249,12 +1249,10 @@
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : 
 	[
-		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Game_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Initial_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Main_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Sooss_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test1_qml.cpp",
-		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test2_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_qmlcache_loader.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qrc_appblackjack_raw_qml_0.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qrc_qmake_blackjack.cpp",
@@ -1287,12 +1285,10 @@
 	"UIC_SEARCH_PATHS" : [],
 	"UIC_SKIP" : 
 	[
-		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Game_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Initial_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Main_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Sooss_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test1_qml.cpp",
-		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test2_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_qmlcache_loader.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qrc_appblackjack_raw_qml_0.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qrc_qmake_blackjack.cpp",

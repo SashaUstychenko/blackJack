@@ -3,9 +3,7 @@
     <file alias="Main.qml">/home/zirer/zirerfile/QtProjects/blackjack/Main.qml</file>
     <file alias="Initial.qml">/home/zirer/zirerfile/QtProjects/blackjack/Initial.qml</file>
     <file alias="Sooss.qml">/home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml</file>
-    <file alias="Game.qml">/home/zirer/zirerfile/QtProjects/blackjack/Game.qml</file>
     <file alias="Test1.qml">/home/zirer/zirerfile/QtProjects/blackjack/Test1.qml</file>
-    <file alias="Test2.qml">/home/zirer/zirerfile/QtProjects/blackjack/Test2.qml</file>
     <file alias="resources.qrc">/home/zirer/zirerfile/QtProjects/blackjack/resources.qrc</file>
   </qresource>
 </RCC>

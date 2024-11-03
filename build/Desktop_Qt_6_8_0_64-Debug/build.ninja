@@ -47,7 +47,7 @@ cmake_ninja_workdir = /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Q
 #############################################
 # Order-only phony target for appblackjack
 
-build cmake_object_order_depends_target_appblackjack: phony || .rcc/qmlcache/appblackjack_Game_qml.cpp .rcc/qmlcache/appblackjack_Initial_qml.cpp .rcc/qmlcache/appblackjack_Main_qml.cpp .rcc/qmlcache/appblackjack_Sooss_qml.cpp .rcc/qmlcache/appblackjack_Test1_qml.cpp .rcc/qmlcache/appblackjack_Test2_qml.cpp .rcc/qmlcache/appblackjack_qmlcache_loader.cpp .rcc/qrc_appblackjack_raw_qml_0.cpp .rcc/qrc_qmake_blackjack.cpp appblackjack_autogen appblackjack_autogen/EWIEGA46WW/qrc_resources.cpp appblackjack_autogen/mocs_compilation.cpp appblackjack_autogen/timestamp appblackjack_autogen_timestamp_deps appblackjack_qmlimportscan appblackjack_qmltyperegistrations.cpp appblackjack_tooling blackjack/appblackjack.qmltypes meta_types/appblackjack_json_file_list.txt meta_types/appblackjack_json_file_list.txt.timestamp meta_types/qt6appblackjack_debug_metatypes.json meta_types/qt6appblackjack_debug_metatypes.json.gen
+build cmake_object_order_depends_target_appblackjack: phony || .rcc/qmlcache/appblackjack_Initial_qml.cpp .rcc/qmlcache/appblackjack_Main_qml.cpp .rcc/qmlcache/appblackjack_Sooss_qml.cpp .rcc/qmlcache/appblackjack_Test1_qml.cpp .rcc/qmlcache/appblackjack_qmlcache_loader.cpp .rcc/qrc_appblackjack_raw_qml_0.cpp .rcc/qrc_qmake_blackjack.cpp appblackjack_autogen appblackjack_autogen/EWIEGA46WW/qrc_resources.cpp appblackjack_autogen/mocs_compilation.cpp appblackjack_autogen/timestamp appblackjack_autogen_timestamp_deps appblackjack_qmlimportscan appblackjack_qmltyperegistrations.cpp appblackjack_tooling blackjack/appblackjack.qmltypes meta_types/appblackjack_json_file_list.txt meta_types/appblackjack_json_file_list.txt.timestamp meta_types/qt6appblackjack_debug_metatypes.json meta_types/qt6appblackjack_debug_metatypes.json.gen
 
 build CMakeFiles/appblackjack.dir/appblackjack_autogen/mocs_compilation.cpp.o: CXX_COMPILER__appblackjack_unscanned_Debug /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/appblackjack_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_appblackjack
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
@@ -169,25 +169,9 @@ build CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/
   OBJECT_DIR = CMakeFiles/appblackjack.dir
   OBJECT_FILE_DIR = CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache
 
-build CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Game_qml.cpp.o: CXX_COMPILER__appblackjack_unscanned_Debug /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Game_qml.cpp || cmake_object_order_depends_target_appblackjack
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Game_qml.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -fcolor-diagnostics -fPIC
-  INCLUDES = -I/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/appblackjack_autogen/include -I/home/zirer/zirerfile/QtProjects/blackjack -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/zirer/Qt/6.8.0/gcc_64/include -isystem /home/zirer/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlBuiltins/6.8.0 -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlBuiltins/6.8.0/QtQmlBuiltins -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlBuiltins -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtOpenGL
-  OBJECT_DIR = CMakeFiles/appblackjack.dir
-  OBJECT_FILE_DIR = CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache
-
 build CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test1_qml.cpp.o: CXX_COMPILER__appblackjack_unscanned_Debug /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test1_qml.cpp || cmake_object_order_depends_target_appblackjack
   DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
   DEP_FILE = CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test1_qml.cpp.o.d
-  FLAGS = -DQT_QML_DEBUG -g -fcolor-diagnostics -fPIC
-  INCLUDES = -I/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/appblackjack_autogen/include -I/home/zirer/zirerfile/QtProjects/blackjack -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/zirer/Qt/6.8.0/gcc_64/include -isystem /home/zirer/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlBuiltins/6.8.0 -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlBuiltins/6.8.0/QtQmlBuiltins -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlBuiltins -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtOpenGL
-  OBJECT_DIR = CMakeFiles/appblackjack.dir
-  OBJECT_FILE_DIR = CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache
-
-build CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test2_qml.cpp.o: CXX_COMPILER__appblackjack_unscanned_Debug /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test2_qml.cpp || cmake_object_order_depends_target_appblackjack
-  DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_OPENGL_LIB -DQT_QMLBUILTINS_LIB -DQT_QMLINTEGRATION_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB
-  DEP_FILE = CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test2_qml.cpp.o.d
   FLAGS = -DQT_QML_DEBUG -g -fcolor-diagnostics -fPIC
   INCLUDES = -I/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/appblackjack_autogen/include -I/home/zirer/zirerfile/QtProjects/blackjack -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQml/6.8.0 -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQml/6.8.0/QtQml -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtCore/6.8.0 -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtCore/6.8.0/QtCore -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtCore -isystem /home/zirer/Qt/6.8.0/gcc_64/include -isystem /home/zirer/Qt/6.8.0/gcc_64/mkspecs/linux-g++ -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlBuiltins/6.8.0 -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlBuiltins/6.8.0/QtQmlBuiltins -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlBuiltins -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQml -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlIntegration -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtNetwork -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQuick -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtGui -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtQmlModels -isystem /home/zirer/Qt/6.8.0/gcc_64/include/QtOpenGL
   OBJECT_DIR = CMakeFiles/appblackjack.dir
@@ -217,7 +201,7 @@ build CMakeFiles/appblackjack.dir/appblackjack_autogen/EWIEGA46WW/qrc_resources.
 #############################################
 # Link the executable appblackjack
 
-build appblackjack: CXX_EXECUTABLE_LINKER__appblackjack_Debug CMakeFiles/appblackjack.dir/appblackjack_autogen/mocs_compilation.cpp.o CMakeFiles/appblackjack.dir/main.cpp.o CMakeFiles/appblackjack.dir/appblackjack_qmltyperegistrations.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qrc_qmake_blackjack.cpp.o CMakeFiles/appblackjack.dir/card.cpp.o CMakeFiles/appblackjack.dir/participant.cpp.o CMakeFiles/appblackjack.dir/player.cpp.o CMakeFiles/appblackjack.dir/dealer.cpp.o CMakeFiles/appblackjack.dir/deck.cpp.o CMakeFiles/appblackjack.dir/game.cpp.o CMakeFiles/appblackjack.dir/skin.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_qmlcache_loader.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Main_qml.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Initial_qml.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Sooss_qml.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Game_qml.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test1_qml.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test2_qml.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qrc_appblackjack_raw_qml_0.cpp.o CMakeFiles/appblackjack.dir/appblackjack_autogen/EWIEGA46WW/qrc_resources.cpp.o | /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Quick.so.6.8.0 /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6QmlModels.so.6.8.0 /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Qml.so.6.8.0 /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6QmlBuiltins.a /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Network.so.6.8.0 /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6OpenGL.so.6.8.0 /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Gui.so.6.8.0 /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Core.so.6.8.0 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || appblackjack_autogen appblackjack_autogen_timestamp_deps appblackjack_qmlimportscan appblackjack_tooling
+build appblackjack: CXX_EXECUTABLE_LINKER__appblackjack_Debug CMakeFiles/appblackjack.dir/appblackjack_autogen/mocs_compilation.cpp.o CMakeFiles/appblackjack.dir/main.cpp.o CMakeFiles/appblackjack.dir/appblackjack_qmltyperegistrations.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qrc_qmake_blackjack.cpp.o CMakeFiles/appblackjack.dir/card.cpp.o CMakeFiles/appblackjack.dir/participant.cpp.o CMakeFiles/appblackjack.dir/player.cpp.o CMakeFiles/appblackjack.dir/dealer.cpp.o CMakeFiles/appblackjack.dir/deck.cpp.o CMakeFiles/appblackjack.dir/game.cpp.o CMakeFiles/appblackjack.dir/skin.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_qmlcache_loader.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Main_qml.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Initial_qml.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Sooss_qml.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test1_qml.cpp.o CMakeFiles/appblackjack.dir/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qrc_appblackjack_raw_qml_0.cpp.o CMakeFiles/appblackjack.dir/appblackjack_autogen/EWIEGA46WW/qrc_resources.cpp.o | /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Quick.so.6.8.0 /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6QmlModels.so.6.8.0 /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Qml.so.6.8.0 /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6QmlBuiltins.a /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Network.so.6.8.0 /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6OpenGL.so.6.8.0 /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Gui.so.6.8.0 /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Core.so.6.8.0 /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libOpenGL.so || appblackjack_autogen appblackjack_autogen_timestamp_deps appblackjack_qmlimportscan appblackjack_tooling
   FLAGS = -DQT_QML_DEBUG -g
   LINK_LIBRARIES = -Wl,-rpath,/home/zirer/Qt/6.8.0/gcc_64/lib:  /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Quick.so.6.8.0  /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6QmlModels.so.6.8.0  /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Qml.so.6.8.0  /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6QmlBuiltins.a  /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Network.so.6.8.0  /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6OpenGL.so.6.8.0  /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Gui.so.6.8.0  /home/zirer/Qt/6.8.0/gcc_64/lib/libQt6Core.so.6.8.0  /usr/lib/x86_64-linux-gnu/libGLX.so  /usr/lib/x86_64-linux-gnu/libOpenGL.so
   OBJECT_DIR = CMakeFiles/appblackjack.dir
@@ -278,7 +262,7 @@ build all_qmllint_module: phony appblackjack_qmllint_module
 #############################################
 # Utility command for appblackjack_tooling
 
-build appblackjack_tooling: phony blackjack/Main.qml blackjack/Initial.qml blackjack/Sooss.qml blackjack/Game.qml blackjack/Test1.qml blackjack/Test2.qml blackjack/resources.qrc
+build appblackjack_tooling: phony blackjack/Main.qml blackjack/Initial.qml blackjack/Sooss.qml blackjack/Test1.qml blackjack/resources.qrc
 
 
 #############################################
@@ -429,15 +413,6 @@ build .rcc/qmlcache/appblackjack_Sooss_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlc
 
 
 #############################################
-# Custom command for .rcc/qmlcache/appblackjack_Game_qml.cpp
-
-build .rcc/qmlcache/appblackjack_Game_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appblackjack_Game_qml.cpp: CUSTOM_COMMAND /home/zirer/Qt/6.8.0/gcc_64/libexec/qmlcachegen /home/zirer/zirerfile/QtProjects/blackjack/Game.qml .rcc/qmake_blackjack.qrc .rcc/appblackjack_raw_qml_0.qrc blackjack/appblackjack.qmltypes blackjack/qmldir || appblackjack_autogen appblackjack_autogen_timestamp_deps appblackjack_qmlimportscan appblackjack_tooling
-  COMMAND = cd /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug && /home/zirer/Qt/Tools/CMake/bin/cmake -E make_directory /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache && /home/zirer/Qt/6.8.0/gcc_64/./libexec/qmlcachegen --bare --resource-path /blackjack/Game.qml -I /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug -I /home/zirer/Qt/6.8.0/gcc_64/./qml -i /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/blackjack/qmldir --resource /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmake_blackjack.qrc --resource /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/appblackjack_raw_qml_0.qrc -o /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Game_qml.cpp /home/zirer/zirerfile/QtProjects/blackjack/Game.qml
-  DESC = Generating .rcc/qmlcache/appblackjack_Game_qml.cpp
-  restat = 1
-
-
-#############################################
 # Custom command for .rcc/qmlcache/appblackjack_Test1_qml.cpp
 
 build .rcc/qmlcache/appblackjack_Test1_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appblackjack_Test1_qml.cpp: CUSTOM_COMMAND /home/zirer/Qt/6.8.0/gcc_64/libexec/qmlcachegen /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml .rcc/qmake_blackjack.qrc .rcc/appblackjack_raw_qml_0.qrc blackjack/appblackjack.qmltypes blackjack/qmldir || appblackjack_autogen appblackjack_autogen_timestamp_deps appblackjack_qmlimportscan appblackjack_tooling
@@ -447,18 +422,9 @@ build .rcc/qmlcache/appblackjack_Test1_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlc
 
 
 #############################################
-# Custom command for .rcc/qmlcache/appblackjack_Test2_qml.cpp
-
-build .rcc/qmlcache/appblackjack_Test2_qml.cpp | ${cmake_ninja_workdir}.rcc/qmlcache/appblackjack_Test2_qml.cpp: CUSTOM_COMMAND /home/zirer/Qt/6.8.0/gcc_64/libexec/qmlcachegen /home/zirer/zirerfile/QtProjects/blackjack/Test2.qml .rcc/qmake_blackjack.qrc .rcc/appblackjack_raw_qml_0.qrc blackjack/appblackjack.qmltypes blackjack/qmldir || appblackjack_autogen appblackjack_autogen_timestamp_deps appblackjack_qmlimportscan appblackjack_tooling
-  COMMAND = cd /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug && /home/zirer/Qt/Tools/CMake/bin/cmake -E make_directory /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache && /home/zirer/Qt/6.8.0/gcc_64/./libexec/qmlcachegen --bare --resource-path /blackjack/Test2.qml -I /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug -I /home/zirer/Qt/6.8.0/gcc_64/./qml -i /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/blackjack/qmldir --resource /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmake_blackjack.qrc --resource /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/appblackjack_raw_qml_0.qrc -o /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test2_qml.cpp /home/zirer/zirerfile/QtProjects/blackjack/Test2.qml
-  DESC = Generating .rcc/qmlcache/appblackjack_Test2_qml.cpp
-  restat = 1
-
-
-#############################################
 # Custom command for .rcc/qrc_appblackjack_raw_qml_0.cpp
 
-build .rcc/qrc_appblackjack_raw_qml_0.cpp | ${cmake_ninja_workdir}.rcc/qrc_appblackjack_raw_qml_0.cpp: CUSTOM_COMMAND /home/zirer/zirerfile/QtProjects/blackjack/Main.qml /home/zirer/zirerfile/QtProjects/blackjack/Initial.qml /home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml /home/zirer/zirerfile/QtProjects/blackjack/Game.qml /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml /home/zirer/zirerfile/QtProjects/blackjack/Test2.qml /home/zirer/zirerfile/QtProjects/blackjack/resources.qrc .rcc/appblackjack_raw_qml_0.qrc /home/zirer/Qt/6.8.0/gcc_64/./libexec/rcc || appblackjack_autogen appblackjack_autogen_timestamp_deps appblackjack_qmlimportscan appblackjack_tooling
+build .rcc/qrc_appblackjack_raw_qml_0.cpp | ${cmake_ninja_workdir}.rcc/qrc_appblackjack_raw_qml_0.cpp: CUSTOM_COMMAND /home/zirer/zirerfile/QtProjects/blackjack/Main.qml /home/zirer/zirerfile/QtProjects/blackjack/Initial.qml /home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml /home/zirer/zirerfile/QtProjects/blackjack/resources.qrc .rcc/appblackjack_raw_qml_0.qrc /home/zirer/Qt/6.8.0/gcc_64/./libexec/rcc || appblackjack_autogen appblackjack_autogen_timestamp_deps appblackjack_qmlimportscan appblackjack_tooling
   COMMAND = cd /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug && /home/zirer/Qt/6.8.0/gcc_64/./libexec/rcc --output /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qrc_appblackjack_raw_qml_0.cpp --name appblackjack_raw_qml_0 /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/appblackjack_raw_qml_0.qrc
   DESC = Running rcc for resource appblackjack_raw_qml_0
   restat = 1
@@ -502,21 +468,21 @@ build CMakeFiles/appblackjack_qmltyperegistration | ${cmake_ninja_workdir}CMakeF
 #############################################
 # Custom command for CMakeFiles/appblackjack_qmllint
 
-build CMakeFiles/appblackjack_qmllint | ${cmake_ninja_workdir}CMakeFiles/appblackjack_qmllint: CUSTOM_COMMAND /home/zirer/Qt/6.8.0/gcc_64/bin/qmllint /home/zirer/zirerfile/QtProjects/blackjack/Main.qml /home/zirer/zirerfile/QtProjects/blackjack/Initial.qml /home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml /home/zirer/zirerfile/QtProjects/blackjack/Game.qml /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml /home/zirer/zirerfile/QtProjects/blackjack/Test2.qml .rcc/qmllint/appblackjack.rsp || all_qmltyperegistrations appblackjack_qmltyperegistration
+build CMakeFiles/appblackjack_qmllint | ${cmake_ninja_workdir}CMakeFiles/appblackjack_qmllint: CUSTOM_COMMAND /home/zirer/Qt/6.8.0/gcc_64/bin/qmllint /home/zirer/zirerfile/QtProjects/blackjack/Main.qml /home/zirer/zirerfile/QtProjects/blackjack/Initial.qml /home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml .rcc/qmllint/appblackjack.rsp || all_qmltyperegistrations appblackjack_qmltyperegistration
   COMMAND = cd /home/zirer/zirerfile/QtProjects/blackjack && /home/zirer/Qt/6.8.0/gcc_64/bin/qmllint @/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmllint/appblackjack.rsp
 
 
 #############################################
 # Custom command for CMakeFiles/appblackjack_qmllint_json
 
-build CMakeFiles/appblackjack_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appblackjack_qmllint_json: CUSTOM_COMMAND /home/zirer/Qt/6.8.0/gcc_64/bin/qmllint /home/zirer/zirerfile/QtProjects/blackjack/Main.qml /home/zirer/zirerfile/QtProjects/blackjack/Initial.qml /home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml /home/zirer/zirerfile/QtProjects/blackjack/Game.qml /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml /home/zirer/zirerfile/QtProjects/blackjack/Test2.qml .rcc/qmllint/appblackjack_json.rsp || all_qmltyperegistrations appblackjack_qmltyperegistration
+build CMakeFiles/appblackjack_qmllint_json | ${cmake_ninja_workdir}CMakeFiles/appblackjack_qmllint_json: CUSTOM_COMMAND /home/zirer/Qt/6.8.0/gcc_64/bin/qmllint /home/zirer/zirerfile/QtProjects/blackjack/Main.qml /home/zirer/zirerfile/QtProjects/blackjack/Initial.qml /home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml .rcc/qmllint/appblackjack_json.rsp || all_qmltyperegistrations appblackjack_qmltyperegistration
   COMMAND = cd /home/zirer/zirerfile/QtProjects/blackjack && /home/zirer/Qt/6.8.0/gcc_64/bin/qmllint @/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmllint/appblackjack_json.rsp
 
 
 #############################################
 # Custom command for CMakeFiles/appblackjack_qmllint_module
 
-build CMakeFiles/appblackjack_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appblackjack_qmllint_module: CUSTOM_COMMAND /home/zirer/Qt/6.8.0/gcc_64/bin/qmllint /home/zirer/zirerfile/QtProjects/blackjack/Main.qml /home/zirer/zirerfile/QtProjects/blackjack/Initial.qml /home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml /home/zirer/zirerfile/QtProjects/blackjack/Game.qml /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml /home/zirer/zirerfile/QtProjects/blackjack/Test2.qml .rcc/qmllint/appblackjack_module.rsp || all_qmltyperegistrations appblackjack_qmltyperegistration
+build CMakeFiles/appblackjack_qmllint_module | ${cmake_ninja_workdir}CMakeFiles/appblackjack_qmllint_module: CUSTOM_COMMAND /home/zirer/Qt/6.8.0/gcc_64/bin/qmllint /home/zirer/zirerfile/QtProjects/blackjack/Main.qml /home/zirer/zirerfile/QtProjects/blackjack/Initial.qml /home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml .rcc/qmllint/appblackjack_module.rsp || all_qmltyperegistrations appblackjack_qmltyperegistration
   COMMAND = cd /home/zirer/zirerfile/QtProjects/blackjack && /home/zirer/Qt/6.8.0/gcc_64/bin/qmllint @/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmllint/appblackjack_module.rsp
 
 
@@ -548,29 +514,11 @@ build blackjack/Sooss.qml | ${cmake_ninja_workdir}blackjack/Sooss.qml: CUSTOM_CO
 
 
 #############################################
-# Custom command for blackjack/Game.qml
-
-build blackjack/Game.qml | ${cmake_ninja_workdir}blackjack/Game.qml: CUSTOM_COMMAND /home/zirer/zirerfile/QtProjects/blackjack/Game.qml
-  COMMAND = cd /home/zirer/zirerfile/QtProjects/blackjack && /home/zirer/Qt/Tools/CMake/bin/cmake -E copy /home/zirer/zirerfile/QtProjects/blackjack/Game.qml /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/blackjack/Game.qml
-  DESC = Copying Game.qml to /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/blackjack/Game.qml
-  restat = 1
-
-
-#############################################
 # Custom command for blackjack/Test1.qml
 
 build blackjack/Test1.qml | ${cmake_ninja_workdir}blackjack/Test1.qml: CUSTOM_COMMAND /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml
   COMMAND = cd /home/zirer/zirerfile/QtProjects/blackjack && /home/zirer/Qt/Tools/CMake/bin/cmake -E copy /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/blackjack/Test1.qml
   DESC = Copying Test1.qml to /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/blackjack/Test1.qml
-  restat = 1
-
-
-#############################################
-# Custom command for blackjack/Test2.qml
-
-build blackjack/Test2.qml | ${cmake_ninja_workdir}blackjack/Test2.qml: CUSTOM_COMMAND /home/zirer/zirerfile/QtProjects/blackjack/Test2.qml
-  COMMAND = cd /home/zirer/zirerfile/QtProjects/blackjack && /home/zirer/Qt/Tools/CMake/bin/cmake -E copy /home/zirer/zirerfile/QtProjects/blackjack/Test2.qml /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/blackjack/Test2.qml
-  DESC = Copying Test2.qml to /home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/blackjack/Test2.qml
   restat = 1
 
 
@@ -592,7 +540,7 @@ build CMakeFiles/appblackjack_qmlimportscan | ${cmake_ninja_workdir}CMakeFiles/a
 #############################################
 # Custom command for .qt_plugins/Qt6_QmlPlugins_Imports_appblackjack.cmake
 
-build .qt_plugins/Qt6_QmlPlugins_Imports_appblackjack.cmake | ${cmake_ninja_workdir}.qt_plugins/Qt6_QmlPlugins_Imports_appblackjack.cmake: CUSTOM_COMMAND /home/zirer/Qt/6.8.0/gcc_64/libexec/qmlimportscanner .rcc/qmake_blackjack.qrc .rcc/appblackjack_raw_qml_0.qrc /home/zirer/zirerfile/QtProjects/blackjack/Main.qml /home/zirer/zirerfile/QtProjects/blackjack/Initial.qml /home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml /home/zirer/zirerfile/QtProjects/blackjack/Game.qml /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml /home/zirer/zirerfile/QtProjects/blackjack/Test2.qml
+build .qt_plugins/Qt6_QmlPlugins_Imports_appblackjack.cmake | ${cmake_ninja_workdir}.qt_plugins/Qt6_QmlPlugins_Imports_appblackjack.cmake: CUSTOM_COMMAND /home/zirer/Qt/6.8.0/gcc_64/libexec/qmlimportscanner .rcc/qmake_blackjack.qrc .rcc/appblackjack_raw_qml_0.qrc /home/zirer/zirerfile/QtProjects/blackjack/Main.qml /home/zirer/zirerfile/QtProjects/blackjack/Initial.qml /home/zirer/zirerfile/QtProjects/blackjack/Sooss.qml /home/zirer/zirerfile/QtProjects/blackjack/Test1.qml
   COMMAND = cd /home/zirer/zirerfile/QtProjects/blackjack && /home/zirer/Qt/6.8.0/gcc_64/./libexec/qmlimportscanner @/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.qt_plugins/Qt6_QmlPlugins_Imports_appblackjack.rsp
   DESC = Running qmlimportscanner for appblackjack
   restat = 1

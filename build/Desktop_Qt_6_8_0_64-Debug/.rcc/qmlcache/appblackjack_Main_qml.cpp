@@ -385,23 +385,6 @@ if (aotContext->engine->hasError())
 // generate_Ret
 return r2_0;
 });}
- },{ 4, QMetaType::fromType<QObject*>(), {  }, 
-    [](const QQmlPrivate::AOTCompiledContext *context, void *data, void **argv) {
-        wrapCall(context, data, argv, [](const QQmlPrivate::AOTCompiledContext *aotContext, void **argumentsPtr) {
-Q_UNUSED(aotContext)
-Q_UNUSED(argumentsPtr)
-// expression for fill at line 37, column 12
-QObject *r2_0;
-// generate_LoadQmlContextPropertyLookup
-while (!aotContext->loadScopeObjectPropertyLookup(3, &r2_0)) {
-aotContext->setInstructionPointer(2);
-aotContext->initLoadScopeObjectPropertyLookup(3, []() { static const auto t = QMetaType::fromName("QQuickItem*"); return t; }());
-if (aotContext->engine->hasError())
-    return static_cast<QObject *>(nullptr);
-}
-// generate_Ret
-return r2_0;
-});}
  },{ 0, QMetaType::fromType<void>(), {}, nullptr }};
 QT_WARNING_POP
 }

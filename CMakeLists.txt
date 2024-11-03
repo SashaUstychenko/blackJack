@@ -30,14 +30,11 @@ qt_add_qml_module(appblackjack
         SOURCES game.h game.cpp
         SOURCES skin.h skin.cpp
 
-        QML_FILES
         QML_FILES Sooss.qml
-        RESOURCES
-        QML_FILES Game.qml
         RESOURCES resources.qrc
         QML_FILES Test1.qml
-        QML_FILES Test2.qml
-        QML_FILES
+
+
 )
 
 
