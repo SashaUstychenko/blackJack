@@ -27,6 +27,13 @@ void Deck::initializeDeck()
     qDebug() << "Колода карт готова. Кількість карт у колоді:" << cards_.size();
 
 }
+void Deck::resetDeck() {
+    if (cards_.isEmpty()) {
+        initializeDeck(); // Повторно ініціалізуємо колоду, якщо всі карти витягнуто
+    } else {
+        shuffleDeck(); // Якщо колода не порожня, просто перемішуємо її
+    }
+}
 void Deck::shuffleDeck() {
 
     // Ініціалізуємо випадковий генератор
@@ -36,12 +43,16 @@ void Deck::shuffleDeck() {
     // Використовуємо std::shuffle для перемішування з новим генератором
     std::shuffle(cards_.begin(), cards_.end(), gen);
 }
-QString Deck::drawCard() {
+
+std::shared_ptr<Card> Deck::drawCard() {
     if (!cards_.isEmpty()) {
-        auto card = cards_.takeLast();  // Витягуємо останню карту з колоди
-        qDebug() << "Витягнуто карту з колоди:" << card->imagePath();  // Додаємо лог для перевірки шляху
-        return card->imagePath();       // Повертаємо шлях до зображення карти
+        auto card = cards_.last();
+        cards_.removeLast(); // Витягуємо останню карту з колоди
+        qDebug() << "Витягнуто карту з колоди:" << card->imagePath();
+        return card;
+    } else {
+        qWarning("Колода порожня. Немає більше карт для витягування.");
+        return nullptr; // Повертає nullptr, якщо колода порожня
     }
-    qDebug() << "Колода порожня";
-    return QString();
 }
+

@@ -55,4 +55,9 @@
         <file>table.jpg</file>
         <file>jack_of_spades.png</file>
     </qresource>
+    <qresource prefix="/soung">
+        <file>swish.m4a</file>
+        <file>creative-technology-showreel-241274.mp3</file>
+        <file>fon.mp3</file>
+    </qresource>
 </RCC>

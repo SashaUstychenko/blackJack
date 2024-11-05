@@ -107,5 +107,67 @@
         ],
         "inputFile": "deck.h",
         "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Participant",
+                "object": true,
+                "qualifiedClassName": "Participant",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "participant.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Sound",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "playCardSound",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "backgroundSound",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "volume",
+                                "type": "qreal"
+                            }
+                        ],
+                        "name": "setBackgroundVolume",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "stopBackgroundSound",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Sound",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "sound.h",
+        "outputRevision": 68
     }
 ]

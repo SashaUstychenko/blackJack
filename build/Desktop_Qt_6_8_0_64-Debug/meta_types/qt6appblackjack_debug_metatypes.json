@@ -87,14 +87,24 @@
     {
         "classes": [
             {
-                "className": "Deck",
-                "methods": [
+                "className": "Dealer",
+                "object": true,
+                "qualifiedClassName": "Dealer",
+                "superClasses": [
                     {
                         "access": "public",
-                        "name": "drawCard",
-                        "returnType": "QString"
+                        "name": "Participant"
                     }
-                ],
+                ]
+            }
+        ],
+        "inputFile": "dealer.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Deck",
                 "object": true,
                 "qualifiedClassName": "Deck",
                 "superClasses": [
@@ -106,6 +116,199 @@
             }
         ],
         "inputFile": "deck.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Game",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "startNewGame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "drawCardForPlayer",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "drawCardForDealer",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "endRound",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "resetGame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getScopePlayer",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getScopeDealer",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "name": "determineWinner",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "shouldDealerDraw",
+                        "returnType": "bool"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Game",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "gameStarted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "playerTurn",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "dealerTurnStarted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "roundEnded",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "winOccurred",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "bustOccurred",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "game.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Participant",
+                "object": true,
+                "qualifiedClassName": "Participant",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "participant.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Player",
+                "object": true,
+                "qualifiedClassName": "Player",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "Participant"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "player.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Sound",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "playCardSound",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "backgroundSound",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "volume",
+                                "type": "qreal"
+                            }
+                        ],
+                        "name": "setBackgroundVolume",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "stopBackgroundSound",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Sound",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "sound.h",
         "outputRevision": 68
     }
 ]

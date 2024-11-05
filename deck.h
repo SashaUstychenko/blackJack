@@ -12,7 +12,10 @@ class Deck : public QObject {
 public:
     explicit Deck(QObject *parent = nullptr);
     void shuffleDeck();
-    Q_INVOKABLE QString drawCard();        // Витягує карту з колоди
+    void resetDeck();
+    std::shared_ptr<Card> drawCard();         // Витягує карту з колоди та повертає її як об'єкт Card
+        // Скидає колоду до початкового стану
+           // Витягує карту з колоди
 
 private:
     void initializeDeck();             // Ініціалізує колоду карт

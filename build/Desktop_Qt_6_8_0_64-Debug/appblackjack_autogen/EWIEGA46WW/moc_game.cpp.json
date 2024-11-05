@@ -1,0 +1,114 @@
+{
+    "classes": [
+        {
+            "className": "Game",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "startNewGame",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "drawCardForPlayer",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "drawCardForDealer",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "endRound",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "resetGame",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "getScopePlayer",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "name": "getScopeDealer",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "name": "determineWinner",
+                    "returnType": "QString"
+                },
+                {
+                    "access": "public",
+                    "name": "shouldDealerDraw",
+                    "returnType": "bool"
+                }
+            ],
+            "object": true,
+            "qualifiedClassName": "Game",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "gameStarted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "playerTurn",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "dealerTurnStarted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "roundEnded",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "result",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "winOccurred",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "message",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "bustOccurred",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "game.h",
+    "outputRevision": 68
+}

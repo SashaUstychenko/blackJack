@@ -1,9 +1,11 @@
 appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/QObject \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/QUrl \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/QVector \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/q20functional.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/q20memory.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/q20type_traits.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/q23utility.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qalgorithms.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qanystringview.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qarraydata.h \
@@ -28,8 +30,10 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qcontainerfwd.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qcontainerinfo.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qcontainertools_impl.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qcontiguouscache.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qdarwinhelpers.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qdatastream.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qdebug.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qexceptionhandling.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qflags.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qfloat16.h \
@@ -39,6 +43,7 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qgenericatomic.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qglobal.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qglobalstatic.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qhash.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qhashfunctions.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qiodevicebase.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qiterable.h \
@@ -47,8 +52,10 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qlist.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qlogging.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qmalloc.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qmap.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qmath.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qmetacontainer.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qmetaobject.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qmetatype.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qminmax.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qnamespace.h \
@@ -63,6 +70,11 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qrefcount.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qscopedpointer.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qscopeguard.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qset.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qshareddata.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qshareddata_impl.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qsharedpointer.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qsharedpointer_impl.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qstring.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qstringalgorithms.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qstringbuilder.h \
@@ -85,6 +97,7 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qtcoreexports.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qtdeprecationmarkers.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qtenvironmentvariables.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qtextstream.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qtmetamacros.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qtnoop.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qtpreprocessorsupport.h \
@@ -95,11 +108,26 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qtversionchecks.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qtypeinfo.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qtypes.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qurl.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qutf8stringview.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qvariant.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qvarlengtharray.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qvector.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qversiontagging.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qxptype_traits.h \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/qyieldcpu.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtGui/qtgui-config.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtGui/qtguiexports.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtGui/qtguiglobal.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtMultimedia/QAudioOutput \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtMultimedia/QMediaPlayer \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtMultimedia/qaudio.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtMultimedia/qaudiooutput.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtMultimedia/qmediaenumdebug.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtMultimedia/qmediaplayer.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtMultimedia/qtmultimedia-config.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtMultimedia/qtmultimediaexports.h \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtMultimedia/qtmultimediaglobal.h \
 	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6/3rdparty/kwin/FindXKB.cmake \
 	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6/FindWrapOpenGL.cmake \
@@ -327,6 +355,23 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake \
 	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake \
 	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsVersionlessTargets.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessTargets.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginAdditionalTargetInfo.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginConfig.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginTargets-relwithdebinfo.cmake \
+	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia/Qt6QGstreamerMediaPluginTargets.cmake \
 	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
 	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
 	/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
@@ -930,8 +975,8 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/zirerfile/QtProjects/blackjack/player.cpp \
 	/home/zirer/zirerfile/QtProjects/blackjack/player.h \
 	/home/zirer/zirerfile/QtProjects/blackjack/resources.qrc \
-	/home/zirer/zirerfile/QtProjects/blackjack/skin.cpp \
-	/home/zirer/zirerfile/QtProjects/blackjack/skin.h \
+	/home/zirer/zirerfile/QtProjects/blackjack/sound.cpp \
+	/home/zirer/zirerfile/QtProjects/blackjack/sound.h \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \
@@ -1029,6 +1074,7 @@ appblackjack_autogen/timestamp: \
 	/usr/include/c++/13/cctype \
 	/usr/include/c++/13/cerrno \
 	/usr/include/c++/13/chrono \
+	/usr/include/c++/13/climits \
 	/usr/include/c++/13/clocale \
 	/usr/include/c++/13/cmath \
 	/usr/include/c++/13/compare \
@@ -1094,7 +1140,9 @@ appblackjack_autogen/timestamp: \
 	/usr/include/errno.h \
 	/usr/include/features-time64.h \
 	/usr/include/features.h \
+	/usr/include/limits.h \
 	/usr/include/linux/errno.h \
+	/usr/include/linux/limits.h \
 	/usr/include/locale.h \
 	/usr/include/pthread.h \
 	/usr/include/sched.h \
@@ -1115,8 +1163,11 @@ appblackjack_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/bits/floatn-common.h \
 	/usr/include/x86_64-linux-gnu/bits/floatn.h \
 	/usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+	/usr/include/x86_64-linux-gnu/bits/local_lim.h \
 	/usr/include/x86_64-linux-gnu/bits/locale.h \
 	/usr/include/x86_64-linux-gnu/bits/long-double.h \
+	/usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+	/usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
 	/usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
 	/usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
 	/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
@@ -1162,10 +1213,12 @@ appblackjack_autogen/timestamp: \
 	/usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
 	/usr/include/x86_64-linux-gnu/bits/typesizes.h \
 	/usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+	/usr/include/x86_64-linux-gnu/bits/uio_lim.h \
 	/usr/include/x86_64-linux-gnu/bits/waitflags.h \
 	/usr/include/x86_64-linux-gnu/bits/waitstatus.h \
 	/usr/include/x86_64-linux-gnu/bits/wchar.h \
 	/usr/include/x86_64-linux-gnu/bits/wordsize.h \
+	/usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/atomic_word.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/c++allocator.h \
 	/usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \

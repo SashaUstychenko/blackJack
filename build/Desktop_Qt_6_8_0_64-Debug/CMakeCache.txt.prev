@@ -347,6 +347,9 @@ Qt6GuiTools_DIR:PATH=/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6GuiTools
 //The directory containing a CMake configuration file for Qt6Gui.
 Qt6Gui_DIR:PATH=/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Gui
 
+//The directory containing a CMake configuration file for Qt6Multimedia.
+Qt6Multimedia_DIR:PATH=/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Multimedia
+
 //The directory containing a CMake configuration file for Qt6Network.
 Qt6Network_DIR:PATH=/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Network
 
@@ -380,6 +383,9 @@ Qt6Quick_DIR:PATH=/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Quick
 //The directory containing a CMake configuration file for Qt6.
 Qt6_DIR:PATH=/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6
 
+//Path to a library.
+VA_X11_LIB:FILEPATH=VA_X11_LIB-NOTFOUND
+
 //Path to a program.
 Vulkan_GLSLANG_VALIDATOR_EXECUTABLE:FILEPATH=Vulkan_GLSLANG_VALIDATOR_EXECUTABLE-NOTFOUND
 
@@ -406,6 +412,21 @@ blackjack_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 blackjack_SOURCE_DIR:STATIC=/home/zirer/zirerfile/QtProjects/blackjack
+
+//Path to a library.
+pkgcfg_lib_LIBVA_DRM_va:FILEPATH=/usr/lib/x86_64-linux-gnu/libva.so
+
+//Path to a library.
+pkgcfg_lib_LIBVA_DRM_va-drm:FILEPATH=/usr/lib/x86_64-linux-gnu/libva-drm.so
+
+//Path to a library.
+pkgcfg_lib_LIBVA_X11_va:FILEPATH=/usr/lib/x86_64-linux-gnu/libva.so
+
+//Path to a library.
+pkgcfg_lib_LIBVA_X11_va-x11:FILEPATH=/usr/lib/x86_64-linux-gnu/libva-x11.so
+
+//Path to a library.
+pkgcfg_lib_LIBVA_va:FILEPATH=/usr/lib/x86_64-linux-gnu/libva.so
 
 
 ########################
@@ -575,6 +596,8 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding OpenGL
 FIND_PACKAGE_MESSAGE_DETAILS_OpenGL:INTERNAL=[/usr/lib/x86_64-linux-gnu/libOpenGL.so][/usr/lib/x86_64-linux-gnu/libGLX.so][/usr/include][c ][v()]
+//Details about finding PkgConfig
+FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/usr/bin/pkg-config][v1.8.1()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //Details about finding WrapAtomic
@@ -585,6 +608,111 @@ FIND_PACKAGE_MESSAGE_DETAILS_WrapOpenGL:INTERNAL=[ON][v()]
 FIND_PACKAGE_MESSAGE_DETAILS_WrapVulkanHeaders:INTERNAL=[/usr/include][v()]
 //Test HAVE_STDATOMIC
 HAVE_STDATOMIC:INTERNAL=1
+LIBVA_CFLAGS:INTERNAL=-I/usr/include
+LIBVA_CFLAGS_I:INTERNAL=
+LIBVA_CFLAGS_OTHER:INTERNAL=
+LIBVA_DRM_CFLAGS:INTERNAL=-I/usr/include
+LIBVA_DRM_CFLAGS_I:INTERNAL=
+LIBVA_DRM_CFLAGS_OTHER:INTERNAL=
+LIBVA_DRM_FOUND:INTERNAL=1
+LIBVA_DRM_INCLUDEDIR:INTERNAL=/usr/include
+LIBVA_DRM_INCLUDE_DIRS:INTERNAL=/usr/include
+LIBVA_DRM_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lva-drm;-lva
+LIBVA_DRM_LDFLAGS_OTHER:INTERNAL=
+LIBVA_DRM_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+LIBVA_DRM_LIBRARIES:INTERNAL=va-drm;va
+LIBVA_DRM_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+LIBVA_DRM_LIBS:INTERNAL=
+LIBVA_DRM_LIBS_L:INTERNAL=
+LIBVA_DRM_LIBS_OTHER:INTERNAL=
+LIBVA_DRM_LIBS_PATHS:INTERNAL=
+LIBVA_DRM_MODULE_NAME:INTERNAL=libva-drm
+LIBVA_DRM_PREFIX:INTERNAL=/usr
+LIBVA_DRM_STATIC_CFLAGS:INTERNAL=-I/usr/include
+LIBVA_DRM_STATIC_CFLAGS_I:INTERNAL=
+LIBVA_DRM_STATIC_CFLAGS_OTHER:INTERNAL=
+LIBVA_DRM_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include
+LIBVA_DRM_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lva-drm;-lva
+LIBVA_DRM_STATIC_LDFLAGS_OTHER:INTERNAL=
+LIBVA_DRM_STATIC_LIBDIR:INTERNAL=
+LIBVA_DRM_STATIC_LIBRARIES:INTERNAL=va-drm;va
+LIBVA_DRM_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+LIBVA_DRM_STATIC_LIBS:INTERNAL=
+LIBVA_DRM_STATIC_LIBS_L:INTERNAL=
+LIBVA_DRM_STATIC_LIBS_OTHER:INTERNAL=
+LIBVA_DRM_STATIC_LIBS_PATHS:INTERNAL=
+LIBVA_DRM_VERSION:INTERNAL=1.22.0
+LIBVA_DRM_libva-drm_INCLUDEDIR:INTERNAL=
+LIBVA_DRM_libva-drm_LIBDIR:INTERNAL=
+LIBVA_DRM_libva-drm_PREFIX:INTERNAL=
+LIBVA_DRM_libva-drm_VERSION:INTERNAL=
+LIBVA_FOUND:INTERNAL=1
+LIBVA_INCLUDEDIR:INTERNAL=/usr/include
+LIBVA_INCLUDE_DIRS:INTERNAL=/usr/include
+LIBVA_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lva
+LIBVA_LDFLAGS_OTHER:INTERNAL=
+LIBVA_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+LIBVA_LIBRARIES:INTERNAL=va
+LIBVA_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+LIBVA_LIBS:INTERNAL=
+LIBVA_LIBS_L:INTERNAL=
+LIBVA_LIBS_OTHER:INTERNAL=
+LIBVA_LIBS_PATHS:INTERNAL=
+LIBVA_MODULE_NAME:INTERNAL=libva
+LIBVA_PREFIX:INTERNAL=/usr
+LIBVA_STATIC_CFLAGS:INTERNAL=-I/usr/include
+LIBVA_STATIC_CFLAGS_I:INTERNAL=
+LIBVA_STATIC_CFLAGS_OTHER:INTERNAL=
+LIBVA_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include
+LIBVA_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lva
+LIBVA_STATIC_LDFLAGS_OTHER:INTERNAL=
+LIBVA_STATIC_LIBDIR:INTERNAL=
+LIBVA_STATIC_LIBRARIES:INTERNAL=va
+LIBVA_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+LIBVA_STATIC_LIBS:INTERNAL=
+LIBVA_STATIC_LIBS_L:INTERNAL=
+LIBVA_STATIC_LIBS_OTHER:INTERNAL=
+LIBVA_STATIC_LIBS_PATHS:INTERNAL=
+LIBVA_VERSION:INTERNAL=1.22.0
+LIBVA_X11_CFLAGS:INTERNAL=-I/usr/include
+LIBVA_X11_CFLAGS_I:INTERNAL=
+LIBVA_X11_CFLAGS_OTHER:INTERNAL=
+LIBVA_X11_FOUND:INTERNAL=1
+LIBVA_X11_INCLUDEDIR:INTERNAL=/usr/include
+LIBVA_X11_INCLUDE_DIRS:INTERNAL=/usr/include
+LIBVA_X11_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lva-x11;-lva
+LIBVA_X11_LDFLAGS_OTHER:INTERNAL=
+LIBVA_X11_LIBDIR:INTERNAL=/usr/lib/x86_64-linux-gnu
+LIBVA_X11_LIBRARIES:INTERNAL=va-x11;va
+LIBVA_X11_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+LIBVA_X11_LIBS:INTERNAL=
+LIBVA_X11_LIBS_L:INTERNAL=
+LIBVA_X11_LIBS_OTHER:INTERNAL=
+LIBVA_X11_LIBS_PATHS:INTERNAL=
+LIBVA_X11_MODULE_NAME:INTERNAL=libva-x11
+LIBVA_X11_PREFIX:INTERNAL=/usr
+LIBVA_X11_STATIC_CFLAGS:INTERNAL=-I/usr/include
+LIBVA_X11_STATIC_CFLAGS_I:INTERNAL=
+LIBVA_X11_STATIC_CFLAGS_OTHER:INTERNAL=
+LIBVA_X11_STATIC_INCLUDE_DIRS:INTERNAL=/usr/include
+LIBVA_X11_STATIC_LDFLAGS:INTERNAL=-L/usr/lib/x86_64-linux-gnu;-lva-x11;-lva
+LIBVA_X11_STATIC_LDFLAGS_OTHER:INTERNAL=
+LIBVA_X11_STATIC_LIBDIR:INTERNAL=
+LIBVA_X11_STATIC_LIBRARIES:INTERNAL=va-x11;va
+LIBVA_X11_STATIC_LIBRARY_DIRS:INTERNAL=/usr/lib/x86_64-linux-gnu
+LIBVA_X11_STATIC_LIBS:INTERNAL=
+LIBVA_X11_STATIC_LIBS_L:INTERNAL=
+LIBVA_X11_STATIC_LIBS_OTHER:INTERNAL=
+LIBVA_X11_STATIC_LIBS_PATHS:INTERNAL=
+LIBVA_X11_VERSION:INTERNAL=1.22.0
+LIBVA_X11_libva-x11_INCLUDEDIR:INTERNAL=
+LIBVA_X11_libva-x11_LIBDIR:INTERNAL=
+LIBVA_X11_libva-x11_PREFIX:INTERNAL=
+LIBVA_X11_libva-x11_VERSION:INTERNAL=
+LIBVA_libva_INCLUDEDIR:INTERNAL=
+LIBVA_libva_LIBDIR:INTERNAL=
+LIBVA_libva_PREFIX:INTERNAL=
+LIBVA_libva_VERSION:INTERNAL=
 //ADVANCED property for variable: OPENGL_EGL_INCLUDE_DIR
 OPENGL_EGL_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: OPENGL_GLES2_INCLUDE_DIR
@@ -654,6 +782,8 @@ QT_FEATURE_alloca:INTERNAL=ON
 QT_FEATURE_alloca_h:INTERNAL=ON
 //Qt feature: alloca_malloc_h (from target Qt6::Core)
 QT_FEATURE_alloca_malloc_h:INTERNAL=OFF
+//Qt feature: alsa (from target Qt6::Multimedia)
+QT_FEATURE_alsa:INTERNAL=OFF
 //Qt feature: android_style_assets (from target Qt6::Core)
 QT_FEATURE_android_style_assets:INTERNAL=OFF
 //Qt feature: animation (from target Qt6::Core)
@@ -664,6 +794,8 @@ QT_FEATURE_appstore_compliant:INTERNAL=OFF
 QT_FEATURE_arm_crc32:INTERNAL=OFF
 //Qt feature: arm_crypto (from target Qt6::Core)
 QT_FEATURE_arm_crypto:INTERNAL=OFF
+//Qt feature: avfoundation (from target Qt6::Multimedia)
+QT_FEATURE_avfoundation:INTERNAL=OFF
 //Qt feature: avx (from target Qt6::Core)
 QT_FEATURE_avx:INTERNAL=ON
 //Qt feature: avx2 (from target Qt6::Core)
@@ -712,6 +844,8 @@ QT_FEATURE_commandlineparser:INTERNAL=ON
 QT_FEATURE_concatenatetablesproxymodel:INTERNAL=ON
 //Qt feature: concurrent (from target Qt6::Core)
 QT_FEATURE_concurrent:INTERNAL=ON
+//Qt feature: coreaudio (from target Qt6::Multimedia)
+QT_FEATURE_coreaudio:INTERNAL=OFF
 //Qt feature: cpp_winrt (from target Qt6::Core)
 QT_FEATURE_cpp_winrt:INTERNAL=OFF
 //Qt feature: cross_compile (from target Qt6::Core)
@@ -808,8 +942,12 @@ QT_FEATURE_enable_new_dtags:INTERNAL=ON
 QT_FEATURE_etw:INTERNAL=OFF
 //Qt feature: evdev (from target Qt6::Gui)
 QT_FEATURE_evdev:INTERNAL=ON
+//Qt feature: evr (from target Qt6::Multimedia)
+QT_FEATURE_evr:INTERNAL=OFF
 //Qt feature: f16c (from target Qt6::Core)
 QT_FEATURE_f16c:INTERNAL=ON
+//Qt feature: ffmpeg (from target Qt6::Multimedia)
+QT_FEATURE_ffmpeg:INTERNAL=ON
 //Qt feature: filesystemiterator (from target Qt6::Core)
 QT_FEATURE_filesystemiterator:INTERNAL=ON
 //Qt feature: filesystemmodel (from target Qt6::Gui)
@@ -846,10 +984,22 @@ QT_FEATURE_getifaddrs:INTERNAL=OFF
 QT_FEATURE_gif:INTERNAL=ON
 //Qt feature: glib (from target Qt6::Core)
 QT_FEATURE_glib:INTERNAL=ON
+//Qt feature: gpu_vivante (from target Qt6::Multimedia)
+QT_FEATURE_gpu_vivante:INTERNAL=OFF
 //Qt feature: graphicsframecapture (from target Qt6::Gui)
 QT_FEATURE_graphicsframecapture:INTERNAL=OFF
 //Qt feature: gssapi (from target Qt6::Network)
 QT_FEATURE_gssapi:INTERNAL=ON
+//Qt feature: gstreamer (from target Qt6::Multimedia)
+QT_FEATURE_gstreamer:INTERNAL=ON
+//Qt feature: gstreamer_1_0 (from target Qt6::Multimedia)
+QT_FEATURE_gstreamer_1_0:INTERNAL=ON
+//Qt feature: gstreamer_app (from target Qt6::Multimedia)
+QT_FEATURE_gstreamer_app:INTERNAL=ON
+//Qt feature: gstreamer_gl (from target Qt6::Multimedia)
+QT_FEATURE_gstreamer_gl:INTERNAL=ON
+//Qt feature: gstreamer_photography (from target Qt6::Multimedia)
+QT_FEATURE_gstreamer_photography:INTERNAL=OFF
 //Qt feature: gui (from target Qt6::Core)
 QT_FEATURE_gui:INTERNAL=ON
 //Qt feature: harfbuzz (from target Qt6::Gui)
@@ -930,8 +1080,12 @@ QT_FEATURE_libresolv:INTERNAL=ON
 QT_FEATURE_libudev:INTERNAL=OFF
 //Qt feature: linkat (from target Qt6::Core)
 QT_FEATURE_linkat:INTERNAL=ON
+//Qt feature: linux_dmabuf (from target Qt6::Multimedia)
+QT_FEATURE_linux_dmabuf:INTERNAL=ON
 //Qt feature: linux_netlink (from target Qt6::Network)
 QT_FEATURE_linux_netlink:INTERNAL=ON
+//Qt feature: linux_v4l (from target Qt6::Multimedia)
+QT_FEATURE_linux_v4l:INTERNAL=ON
 //Qt feature: linuxfb (from target Qt6::Gui)
 QT_FEATURE_linuxfb:INTERNAL=ON
 //Qt feature: localserver (from target Qt6::Network)
@@ -946,6 +1100,8 @@ QT_FEATURE_mimetype_database:INTERNAL=ON
 QT_FEATURE_mips_dsp:INTERNAL=OFF
 //Qt feature: mips_dspr2 (from target Qt6::Core)
 QT_FEATURE_mips_dspr2:INTERNAL=OFF
+//Qt feature: mmrenderer (from target Qt6::Multimedia)
+QT_FEATURE_mmrenderer:INTERNAL=OFF
 //Qt feature: movie (from target Qt6::Gui)
 QT_FEATURE_movie:INTERNAL=ON
 //Qt feature: mtdev (from target Qt6::Gui)
@@ -978,6 +1134,8 @@ QT_FEATURE_opengles3:INTERNAL=OFF
 QT_FEATURE_opengles31:INTERNAL=OFF
 //Qt feature: opengles32 (from target Qt6::Gui)
 QT_FEATURE_opengles32:INTERNAL=OFF
+//Qt feature: opensles (from target Qt6::Multimedia)
+QT_FEATURE_opensles:INTERNAL=OFF
 //Qt feature: openssl (from target Qt6::Core)
 QT_FEATURE_openssl:INTERNAL=ON
 //Qt feature: openssl_hash (from target Qt6::Core)
@@ -1036,6 +1194,8 @@ QT_FEATURE_proxymodel:INTERNAL=ON
 QT_FEATURE_publicsuffix_qt:INTERNAL=ON
 //Qt feature: publicsuffix_system (from target Qt6::Network)
 QT_FEATURE_publicsuffix_system:INTERNAL=ON
+//Qt feature: pulseaudio (from target Qt6::Multimedia)
+QT_FEATURE_pulseaudio:INTERNAL=ON
 //Qt feature: qml_animation (from target Qt6::Qml)
 QT_FEATURE_qml_animation:INTERNAL=ON
 //Qt feature: qml_debug (from target Qt6::Qml)
@@ -1167,6 +1327,10 @@ QT_FEATURE_slog2:INTERNAL=OFF
 QT_FEATURE_socks5:INTERNAL=ON
 //Qt feature: sortfilterproxymodel (from target Qt6::Core)
 QT_FEATURE_sortfilterproxymodel:INTERNAL=ON
+//Qt feature: spatialaudio (from target Qt6::Multimedia)
+QT_FEATURE_spatialaudio:INTERNAL=ON
+//Qt feature: spatialaudio_quick3d (from target Qt6::Multimedia)
+QT_FEATURE_spatialaudio_quick3d:INTERNAL=ON
 //Qt feature: sql (from target Qt6::Core)
 QT_FEATURE_sql:INTERNAL=ON
 //Qt feature: sse2 (from target Qt6::Core)
@@ -1275,10 +1439,14 @@ QT_FEATURE_use_gold_linker:INTERNAL=OFF
 QT_FEATURE_use_lld_linker:INTERNAL=OFF
 //Qt feature: use_mold_linker (from target Qt6::Core)
 QT_FEATURE_use_mold_linker:INTERNAL=OFF
+//Qt feature: vaapi (from target Qt6::Multimedia)
+QT_FEATURE_vaapi:INTERNAL=ON
 //Qt feature: vaes (from target Qt6::Core)
 QT_FEATURE_vaes:INTERNAL=ON
 //Qt feature: validator (from target Qt6::Gui)
 QT_FEATURE_validator:INTERNAL=ON
+//Qt feature: videotoolbox (from target Qt6::Multimedia)
+QT_FEATURE_videotoolbox:INTERNAL=OFF
 //Qt feature: vkgen (from target Qt6::Gui)
 QT_FEATURE_vkgen:INTERNAL=ON
 //Qt feature: vkkhrdisplay (from target Qt6::Gui)
@@ -1289,6 +1457,8 @@ QT_FEATURE_vnc:INTERNAL=ON
 QT_FEATURE_vsp2:INTERNAL=OFF
 //Qt feature: vulkan (from target Qt6::Gui)
 QT_FEATURE_vulkan:INTERNAL=ON
+//Qt feature: wasm (from target Qt6::Multimedia)
+QT_FEATURE_wasm:INTERNAL=OFF
 //Qt feature: wasm_exceptions (from target Qt6::Core)
 QT_FEATURE_wasm_exceptions:INTERNAL=OFF
 //Qt feature: wasm_simd128 (from target Qt6::Core)
@@ -1301,6 +1471,10 @@ QT_FEATURE_whatsthis:INTERNAL=ON
 QT_FEATURE_wheelevent:INTERNAL=ON
 //Qt feature: widgets (from target Qt6::Core)
 QT_FEATURE_widgets:INTERNAL=ON
+//Qt feature: wmf (from target Qt6::Multimedia)
+QT_FEATURE_wmf:INTERNAL=OFF
+//Qt feature: wmsdk (from target Qt6::Multimedia)
+QT_FEATURE_wmsdk:INTERNAL=OFF
 //Qt feature: x86intrin (from target Qt6::Core)
 QT_FEATURE_x86intrin:INTERNAL=ON
 //Qt feature: xcb (from target Qt6::Gui)
@@ -1347,6 +1521,23 @@ Vulkan_LIBRARY-ADVANCED:INTERNAL=1
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
+__pkg_config_arguments_LIBVA:INTERNAL=REQUIRED;libva
+__pkg_config_arguments_LIBVA_DRM:INTERNAL=REQUIRED;libva-drm
+__pkg_config_arguments_LIBVA_X11:INTERNAL=REQUIRED;libva-x11
+__pkg_config_checked_LIBVA:INTERNAL=1
+__pkg_config_checked_LIBVA_DRM:INTERNAL=1
+__pkg_config_checked_LIBVA_X11:INTERNAL=1
 __pkg_config_checked_PKG_XKB:INTERNAL=1
 __qt_qml_macros_module_base_dir:INTERNAL=/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6Qml
+//ADVANCED property for variable: pkgcfg_lib_LIBVA_DRM_va
+pkgcfg_lib_LIBVA_DRM_va-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_LIBVA_DRM_va-drm
+pkgcfg_lib_LIBVA_DRM_va-drm-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_LIBVA_X11_va
+pkgcfg_lib_LIBVA_X11_va-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_LIBVA_X11_va-x11
+pkgcfg_lib_LIBVA_X11_va-x11-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: pkgcfg_lib_LIBVA_va
+pkgcfg_lib_LIBVA_va-ADVANCED:INTERNAL=1
+prefix_result:INTERNAL=/usr/lib/x86_64-linux-gnu
 

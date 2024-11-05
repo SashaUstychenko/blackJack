@@ -908,10 +908,58 @@
 		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickTargets-relwithdebinfo.cmake",
 		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickAdditionalTargetInfo.cmake",
 		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Quick/Qt6QuickVersionlessTargets.cmake",
+		"/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/FindPkgConfig.cmake",
+		"/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake",
+		"/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake",
 		"/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
 		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Qml/Qt6QmlModuleDirMappingTemplate.qrc.in",
 		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Core/Qt6CoreConfigureFileTemplate.in",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/Qt6Config.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/Qt6ConfigExtras.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/Qt6Targets.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/Qt6VersionlessTargets.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtFeature.cmake",
+		"/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtFeatureCommon.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicAppleHelpers.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicCMakeHelpers.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicExternalProjectHelpers.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicFindPackageHelpers.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicPluginHelpers.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicTargetHelpers.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicTestHelpers.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicToolHelpers.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake",
+		"/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/Qt6Dependencies.cmake",
+		"/home/zirer/Qt/6.8.0/gcc_64/lib/cmake/Qt6HostInfo/Qt6HostInfoConfig.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake",
+		"/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessTargets.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QAndroidMediaPluginConfig.cmake",
+		"/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QAndroidMediaPluginTargets.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QAndroidMediaPluginTargets-relwithdebinfo.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QAndroidMediaPluginAdditionalTargetInfo.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake",
+		"/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake",
 		"/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Qml/Qt6qmldirTemplate.cmake.in",
 		"/home/zirer/Qt/Tools/CMake/share/cmake-3.29/Modules/ExternalProject.cmake",
@@ -937,21 +985,9 @@
 			null
 		],
 		[
-			"/home/zirer/zirerfile/QtProjects/blackjack/dealer.h",
-			"MU",
-			"EWIEGA46WW/moc_dealer.cpp",
-			null
-		],
-		[
 			"/home/zirer/zirerfile/QtProjects/blackjack/deck.h",
 			"MU",
 			"EWIEGA46WW/moc_deck.cpp",
-			null
-		],
-		[
-			"/home/zirer/zirerfile/QtProjects/blackjack/game.h",
-			"MU",
-			"EWIEGA46WW/moc_game.cpp",
 			null
 		],
 		[
@@ -961,15 +997,9 @@
 			null
 		],
 		[
-			"/home/zirer/zirerfile/QtProjects/blackjack/player.h",
+			"/home/zirer/zirerfile/QtProjects/blackjack/sound.h",
 			"MU",
-			"EWIEGA46WW/moc_player.cpp",
-			null
-		],
-		[
-			"/home/zirer/zirerfile/QtProjects/blackjack/skin.h",
-			"MU",
-			"EWIEGA46WW/moc_skin.cpp",
+			"EWIEGA46WW/moc_sound.cpp",
 			null
 		]
 	],
@@ -980,6 +1010,7 @@
 	[
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
+		"QT_MULTIMEDIA_LIB",
 		"QT_NETWORK_LIB",
 		"QT_OPENGL_LIB",
 		"QT_QMLBUILTINS_LIB",
@@ -1016,6 +1047,7 @@
 		"/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtGui",
 		"/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtQmlModels",
 		"/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtOpenGL",
+		"/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtMultimedia",
 		"/home/zirer/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include",
 		"/home/zirer/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/c++/v1",
 		"/home/zirer/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/17/include",
@@ -1065,17 +1097,14 @@
 	"SOURCES" : 
 	[
 		[ "/home/zirer/zirerfile/QtProjects/blackjack/card.cpp", "MU", null ],
-		[ "/home/zirer/zirerfile/QtProjects/blackjack/dealer.cpp", "MU", null ],
 		[ "/home/zirer/zirerfile/QtProjects/blackjack/deck.cpp", "MU", null ],
-		[ "/home/zirer/zirerfile/QtProjects/blackjack/game.cpp", "MU", null ],
 		[ "/home/zirer/zirerfile/QtProjects/blackjack/main.cpp", "MU", null ],
 		[
 			"/home/zirer/zirerfile/QtProjects/blackjack/participant.cpp",
 			"MU",
 			null
 		],
-		[ "/home/zirer/zirerfile/QtProjects/blackjack/player.cpp", "MU", null ],
-		[ "/home/zirer/zirerfile/QtProjects/blackjack/skin.cpp", "MU", null ]
+		[ "/home/zirer/zirerfile/QtProjects/blackjack/sound.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

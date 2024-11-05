@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "Participant",
+            "object": true,
+            "qualifiedClassName": "Participant",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "participant.h",
+    "outputRevision": 68
+}

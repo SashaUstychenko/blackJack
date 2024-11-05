@@ -2,13 +2,6 @@
     "classes": [
         {
             "className": "Deck",
-            "methods": [
-                {
-                    "access": "public",
-                    "name": "drawCard",
-                    "returnType": "QString"
-                }
-            ],
             "object": true,
             "qualifiedClassName": "Deck",
             "superClasses": [

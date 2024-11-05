@@ -1,4 +1,4 @@
-set(qml_import_scanner_imports_count 27)
+set(qml_import_scanner_imports_count 28)
 set(qml_import_scanner_import_0 "CLASSNAME;QtQuick2Plugin;LINKTARGET;Qt6::qtquick2plugin;NAME;QtQuick;PATH;/home/zirer/Qt/6.8.0/android_arm64_v8a/qml/QtQuick;PLUGIN;qml_QtQuick_qtquick2plugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/;RELATIVEPATH;QtQuick;TYPE;module;")
 set(qml_import_scanner_import_1 "CLASSNAME;QtQmlMetaPlugin;LINKTARGET;Qt6::QmlMeta;NAME;QtQml;PATH;/home/zirer/Qt/6.8.0/android_arm64_v8a/qml/QtQml;PLUGIN;qml_QtQml_qmlmetaplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQml/;RELATIVEPATH;QtQml;TYPE;module;")
 set(qml_import_scanner_import_2 "CLASSNAME;QtQmlPlugin;LINKTARGET;Qt6::qmlplugin;NAME;QtQml.Base;PATH;/home/zirer/Qt/6.8.0/android_arm64_v8a/qml/QtQml/Base;PLUGIN;qml_QtQml_Base_qmlplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQml/Base/;RELATIVEPATH;QtQml/Base;TYPE;module;")
@@ -26,4 +26,5 @@ set(qml_import_scanner_import_23 "CLASSNAME;QmlShapesPlugin;LINKTARGET;Qt6::qmls
 set(qml_import_scanner_import_24 "CLASSNAME;QtQuickLayoutsPlugin;LINKTARGET;Qt6::qquicklayoutsplugin;NAME;QtQuick.Layouts;PATH;/home/zirer/Qt/6.8.0/android_arm64_v8a/qml/QtQuick/Layouts;PLUGIN;qml_QtQuick_Layouts_qquicklayoutsplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/Layouts/;RELATIVEPATH;QtQuick/Layouts;TYPE;module;")
 set(qml_import_scanner_import_25 "NAME;BlackjackDeck;TYPE;module;")
 set(qml_import_scanner_import_26 "NAME;BlackjackCard;TYPE;module;")
+set(qml_import_scanner_import_27 "NAME;BlackjackSound;TYPE;module;")
 

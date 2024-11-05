@@ -703,10 +703,12 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/wctype.h \
 	/home/zirer/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/xlocale.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/QObject \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/QUrl \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/QVector \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/q20functional.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/q20memory.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/q20type_traits.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/q23utility.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qalgorithms.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qanystringview.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qarraydata.h \
@@ -731,8 +733,10 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qcontainerfwd.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qcontainerinfo.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qcontainertools_impl.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qcontiguouscache.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qdarwinhelpers.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qdatastream.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qdebug.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qexceptionhandling.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qflags.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qfloat16.h \
@@ -742,6 +746,7 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qgenericatomic.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qglobal.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qglobalstatic.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qhash.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qhashfunctions.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qiodevicebase.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qiterable.h \
@@ -750,8 +755,10 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qlist.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qlogging.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qmalloc.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qmap.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qmath.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qmetacontainer.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qmetaobject.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qmetatype.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qminmax.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qnamespace.h \
@@ -766,6 +773,11 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qrefcount.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qscopedpointer.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qscopeguard.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qset.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qshareddata.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qshareddata_impl.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qsharedpointer.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qsharedpointer_impl.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qstring.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qstringalgorithms.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qstringbuilder.h \
@@ -788,6 +800,7 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qtcoreexports.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qtdeprecationmarkers.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qtenvironmentvariables.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qtextstream.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qtmetamacros.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qtnoop.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qtpreprocessorsupport.h \
@@ -798,11 +811,26 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qtversionchecks.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qtypeinfo.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qtypes.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qurl.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qutf8stringview.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qvariant.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qvarlengtharray.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qvector.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qversiontagging.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qxptype_traits.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qyieldcpu.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtGui/qtgui-config.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtGui/qtguiexports.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtGui/qtguiglobal.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtMultimedia/QAudioOutput \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtMultimedia/QMediaPlayer \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtMultimedia/qaudio.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtMultimedia/qaudiooutput.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtMultimedia/qmediaenumdebug.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtMultimedia/qmediaplayer.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtMultimedia/qtmultimedia-config.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtMultimedia/qtmultimediaexports.h \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtMultimedia/qtmultimediaglobal.h \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/ECMFindModuleHelpersStub.cmake \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules/FindEGL.cmake \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6/3rdparty/extra-cmake-modules/modules/ECMFindModuleHelpers.cmake \
@@ -908,6 +936,23 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QWebpPluginConfig.cmake \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets-relwithdebinfo.cmake \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Gui/Qt6QWebpPluginTargets.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaAdditionalTargetInfo.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaConfig.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersion.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaConfigVersionImpl.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaDependencies.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaPlugins.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets-relwithdebinfo.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaTargets.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6MultimediaVersionlessTargets.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QAndroidMediaPluginAdditionalTargetInfo.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QAndroidMediaPluginConfig.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QAndroidMediaPluginTargets-relwithdebinfo.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QAndroidMediaPluginTargets.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginAdditionalTargetInfo.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginConfig.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets-relwithdebinfo.cmake \
+	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Multimedia/Qt6QFFmpegMediaPluginTargets.cmake \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Network/Qt6NetworkAdditionalTargetInfo.cmake \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake \
 	/home/zirer/Qt/6.8.0/android_arm64_v8a/lib/cmake/Qt6Network/Qt6NetworkConfigVersion.cmake \
@@ -1460,18 +1505,12 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/appblackjack_autogen/moc_predefs.h \
 	/home/zirer/zirerfile/QtProjects/blackjack/card.cpp \
 	/home/zirer/zirerfile/QtProjects/blackjack/card.h \
-	/home/zirer/zirerfile/QtProjects/blackjack/dealer.cpp \
-	/home/zirer/zirerfile/QtProjects/blackjack/dealer.h \
 	/home/zirer/zirerfile/QtProjects/blackjack/deck.cpp \
 	/home/zirer/zirerfile/QtProjects/blackjack/deck.h \
-	/home/zirer/zirerfile/QtProjects/blackjack/game.cpp \
-	/home/zirer/zirerfile/QtProjects/blackjack/game.h \
 	/home/zirer/zirerfile/QtProjects/blackjack/main.cpp \
 	/home/zirer/zirerfile/QtProjects/blackjack/participant.cpp \
 	/home/zirer/zirerfile/QtProjects/blackjack/participant.h \
-	/home/zirer/zirerfile/QtProjects/blackjack/player.cpp \
-	/home/zirer/zirerfile/QtProjects/blackjack/player.h \
 	/home/zirer/zirerfile/QtProjects/blackjack/resources.qrc \
-	/home/zirer/zirerfile/QtProjects/blackjack/skin.cpp \
-	/home/zirer/zirerfile/QtProjects/blackjack/skin.h \
+	/home/zirer/zirerfile/QtProjects/blackjack/sound.cpp \
+	/home/zirer/zirerfile/QtProjects/blackjack/sound.h \
 	/home/zirer/Qt/Tools/CMake/bin/cmake

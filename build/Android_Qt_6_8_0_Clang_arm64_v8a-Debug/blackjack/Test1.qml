@@ -4,15 +4,98 @@ import QtQuick.Controls
 
 import BlackjackDeck
 import BlackjackCard
+import BlackjackSound
 
 
 Rectangle {
     visible: true
     width: 800
     height: 600
+    SoundMy {
+          id: sound
+      }
 
     property string currentCardImage: "" // Поточне зображення карти
     property int cardTarget: 0 // 0 - гравець, 1 - дилер
+    Drawer {
+            id: myDrawer
+            width: parent.width * 0.7
+            height: parent.height// Ширина Drawer (70% від ширини вікна)
+            edge: Qt.LeftEdge          // Drawer відкривається при свайпі з лівого краю
+            modal: true                // Робить Drawer модальним, перекриваючи основний вміст
+
+
+            // Вміст Drawer
+            Column {
+                spacing: 10
+                padding: 20
+
+                Label {
+                    text: "Menu"
+                    font.bold: true
+                    font.pixelSize: 24
+                }
+
+                Button {
+                    text: "Home"
+                    onClicked: {
+                        myDrawer.close()  // Закриває Drawer при натисканні кнопки
+                    }
+                }
+                Label {
+                    text: "Сhange volume"
+
+                    font.pixelSize: 15
+                }
+
+                Slider {
+                       id: volumeSlider
+                       from: 0.0
+                       to: 1.0
+                       stepSize: 0.1
+                       value: 0.5  // Початкова гучність
+
+                       onValueChanged: {
+                           sound.setBackgroundVolume(value);  // Регулюємо гучність при зміні значення
+                       }
+                   }
+                Switch
+                {
+                    id: soundSwitch
+                    text: "on"
+                    checked: true
+                    onCheckedChanged:
+                    {
+                        if(soundSwitch.checked)
+                        {
+                            sound.backgroundSound();
+                            soundSwitch.text = "sound on"
+
+                        }
+                        else
+                        {
+                            sound.stopBackgroundSound();
+                            soundSwitch.text = "sound off"
+
+                        }
+                    }
+                }
+
+            }
+        }
+
+
+    Component.onCompleted: {
+           sound.backgroundSound()  // Відтворення фонової музики при запуску
+       }
+    Image
+    {
+        width: parent.width
+        height: parent.height
+        id:backgroundTable
+        source: "qrc:/table.jpg"
+
+
 
     Rectangle {
         id: topRight
@@ -46,11 +129,12 @@ Rectangle {
     }
 
     // Поле для відображення карт гравця
+
     ListView {
         id: playerHand
         width: parent.width
         height: 150
-        spacing: 10
+        spacing: -50
         model: playerCardsModel
         anchors.bottom: parent.bottom
         anchors.bottomMargin: 50
@@ -67,7 +151,7 @@ Rectangle {
         id: dealerHand
         width: parent.width
         height: 150
-        spacing: 10
+        spacing: -50
         model: dealerCardsModel
         anchors.top: parent.top
         anchors.topMargin: 50
@@ -143,6 +227,7 @@ Rectangle {
         anchors.bottomMargin: 20
         enabled: !buttonLockTimer.running // Блокування кнопки під час роботи таймера
         onClicked: {
+            sound.playCardSound();
             cardTarget = 0; // Вибір цілі - гравець
             var imagePath = deck.drawCard(); // Отримуємо шлях до зображення карти
             if (imagePath) {
@@ -152,6 +237,7 @@ Rectangle {
                 playerButton.enabled = false // Блокуємо кнопки одразу після натискання
                 dealerButton.enabled = false
                 buttonLockTimer.start() // Запускаємо таймер для блокування на 3 секунди
+
             } else {
                 console.log("Колода порожня або карта не повертається")
             }
@@ -195,6 +281,7 @@ Rectangle {
             currentCardImage = ""; // Скидаємо зображення карти
             cardImage.state = "idle"; // Повертаємося в початковий стан
         }
+    }
     }
 }
 

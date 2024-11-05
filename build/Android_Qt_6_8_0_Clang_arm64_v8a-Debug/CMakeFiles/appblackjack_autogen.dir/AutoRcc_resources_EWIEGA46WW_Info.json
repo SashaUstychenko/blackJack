@@ -62,7 +62,10 @@
 		"/home/zirer/zirerfile/QtProjects/blackjack/ace_of_diamonds.png",
 		"/home/zirer/zirerfile/QtProjects/blackjack/6_of_hearts.png",
 		"/home/zirer/zirerfile/QtProjects/blackjack/8_of_diamonds.png",
-		"/home/zirer/zirerfile/QtProjects/blackjack/6_of_clubs.png"
+		"/home/zirer/zirerfile/QtProjects/blackjack/6_of_clubs.png",
+		"/home/zirer/zirerfile/QtProjects/blackjack/swish.m4a",
+		"/home/zirer/zirerfile/QtProjects/blackjack/fon.mp3",
+		"/home/zirer/zirerfile/QtProjects/blackjack/creative-technology-showreel-241274.mp3"
 	],
 	"LOCK_FILE" : "/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/CMakeFiles/appblackjack_autogen.dir/AutoRcc_resources_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
