@@ -20,10 +20,18 @@ public:
     Q_INVOKABLE int getScopePlayer();            // Повертає очки гравця
     Q_INVOKABLE int getScopeDealer();
     Q_INVOKABLE QString determineWinner() const ;      // Повертає очки дилера
-    Q_INVOKABLE bool shouldDealerDraw() const;   // Повертає `true`, якщо дилер повинен добирати карту
+    Q_INVOKABLE bool shouldDealerDraw() const;
+    Q_INVOKABLE int getPlayerBalance()const ;
+    Q_INVOKABLE void placeBet(int amount);
+    Q_INVOKABLE void setPlayerBet(int bet);
+    Q_INVOKABLE void handleWin();
+
+
+    // Повертає `true`, якщо дилер повинен добирати карту
 
 signals:
-    void gameStarted();                          // Сигнал про початок гри
+    void gameStarted();
+    void gameReset();
     void playerTurn();                           // Сигнал про хід гравця
     void dealerTurnStarted();                    // Сигнал про хід дилера
     void roundEnded(QString result);             // Сигнал про завершення раунду з результатом
@@ -34,7 +42,8 @@ private:
     Deck deck_;                                  // Колода карт
     Player player_;                              // Гравець
     Dealer dealer_;                              // Дилер
-
+    int playerBet_;
+    void handleBetResults(bool playerWon);
     void checkForBust();                         // Перевіряє, чи є перебір у гравця або дилера
 };
 

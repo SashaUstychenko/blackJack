@@ -1217,6 +1217,12 @@
 			null
 		],
 		[
+			"/home/zirer/zirerfile/QtProjects/blackjack/skin.h",
+			"MU",
+			"EWIEGA46WW/moc_skin.cpp",
+			null
+		],
+		[
 			"/home/zirer/zirerfile/QtProjects/blackjack/sound.h",
 			"MU",
 			"EWIEGA46WW/moc_sound.cpp",
@@ -1300,7 +1306,6 @@
 	[
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Initial_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Main_qml.cpp",
-		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Sooss_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test1_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_qmlcache_loader.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qrc_appblackjack_raw_qml_0.cpp",
@@ -1328,6 +1333,7 @@
 			null
 		],
 		[ "/home/zirer/zirerfile/QtProjects/blackjack/player.cpp", "MU", null ],
+		[ "/home/zirer/zirerfile/QtProjects/blackjack/skin.cpp", "MU", null ],
 		[ "/home/zirer/zirerfile/QtProjects/blackjack/sound.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
@@ -1336,7 +1342,6 @@
 	[
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Initial_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Main_qml.cpp",
-		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Sooss_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_Test1_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qmlcache/appblackjack_qmlcache_loader.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Desktop_Qt_6_8_0_64-Debug/.rcc/qrc_appblackjack_raw_qml_0.cpp",

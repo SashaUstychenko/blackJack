@@ -4,6 +4,7 @@
 #include "card.h"
 #include "sound.h"
 #include "game.h"
+#include "skin.h"
 
 int main(int argc, char *argv[])
 {
@@ -14,6 +15,7 @@ int main(int argc, char *argv[])
     qmlRegisterType<Card>("BlackjackCard",1,0,"Card");
     qmlRegisterType<Sound>("BlackjackSound",1,0,"SoundMy");
     qmlRegisterType<Game>("BlackjackGame",1,0,"Game");
+    qmlRegisterType<Skin>("BlackjackSkin",1,0,"Skin");
 
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/blackjack/Main.qml"));

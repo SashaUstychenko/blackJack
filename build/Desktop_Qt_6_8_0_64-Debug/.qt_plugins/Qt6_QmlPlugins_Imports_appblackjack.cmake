@@ -1,4 +1,4 @@
-set(qml_import_scanner_imports_count 32)
+set(qml_import_scanner_imports_count 33)
 set(qml_import_scanner_import_0 "CLASSNAME;QtQuick2Plugin;LINKTARGET;Qt6::qtquick2plugin;NAME;QtQuick;PATH;/home/zirer/Qt/6.8.0/gcc_64/qml/QtQuick;PLUGIN;qtquick2plugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/;RELATIVEPATH;QtQuick;TYPE;module;")
 set(qml_import_scanner_import_1 "CLASSNAME;QtQmlMetaPlugin;LINKTARGET;Qt6::QmlMeta;NAME;QtQml;PATH;/home/zirer/Qt/6.8.0/gcc_64/qml/QtQml;PLUGIN;qmlmetaplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQml/;RELATIVEPATH;QtQml;TYPE;module;")
 set(qml_import_scanner_import_2 "CLASSNAME;QtQmlPlugin;LINKTARGET;Qt6::qmlplugin;NAME;QtQml.Base;PATH;/home/zirer/Qt/6.8.0/gcc_64/qml/QtQml/Base;PLUGIN;qmlplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQml/Base/;RELATIVEPATH;QtQml/Base;TYPE;module;")
@@ -31,4 +31,5 @@ set(qml_import_scanner_import_28 "NAME;BlackjackDeck;TYPE;module;")
 set(qml_import_scanner_import_29 "NAME;BlackjackCard;TYPE;module;")
 set(qml_import_scanner_import_30 "NAME;BlackjackSound;TYPE;module;")
 set(qml_import_scanner_import_31 "NAME;BlackjackGame;TYPE;module;")
+set(qml_import_scanner_import_32 "NAME;BlackjackSkin;TYPE;module;")
 

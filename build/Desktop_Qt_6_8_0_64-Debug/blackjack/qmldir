@@ -3,6 +3,5 @@ typeinfo appblackjack.qmltypes
 prefer :/blackjack/
 Main 1.0 Main.qml
 Initial 1.0 Initial.qml
-Sooss 1.0 Sooss.qml
 Test1 1.0 Test1.qml
 

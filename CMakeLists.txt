@@ -31,7 +31,7 @@ qt_add_qml_module(appblackjack
         QML_FILES Initial.qml
         SOURCES card.h card.cpp
         SOURCES deck.h deck.cpp
-        QML_FILES Sooss.qml
+        QML_FILES
         RESOURCES resources.qrc
         QML_FILES Test1.qml
         SOURCES participant.h participant.cpp
@@ -39,6 +39,7 @@ qt_add_qml_module(appblackjack
         SOURCES player.h player.cpp
         SOURCES dealer.h dealer.cpp
         SOURCES game.h game.cpp
+        SOURCES skin.h skin.cpp
 
 
 )

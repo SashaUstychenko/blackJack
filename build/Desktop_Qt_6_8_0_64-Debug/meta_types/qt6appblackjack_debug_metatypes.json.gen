@@ -167,6 +167,38 @@
                         "access": "public",
                         "name": "shouldDealerDraw",
                         "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getPlayerBalance",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "amount",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "placeBet",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "bet",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "setPlayerBet",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "handleWin",
+                        "returnType": "void"
                     }
                 ],
                 "object": true,
@@ -175,6 +207,11 @@
                     {
                         "access": "public",
                         "name": "gameStarted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "gameReset",
                         "returnType": "void"
                     },
                     {
@@ -264,6 +301,60 @@
             }
         ],
         "inputFile": "player.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Skin",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newBackImage",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "setBackImage",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "backImage",
+                        "notify": "backImageChanged",
+                        "read": "backImage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setBackImage"
+                    }
+                ],
+                "qualifiedClassName": "Skin",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "backImageChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "skin.h",
         "outputRevision": 68
     },
     {

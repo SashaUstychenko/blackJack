@@ -1,12 +1,13 @@
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Dialogs
+import QtQuick.Layouts
 
 import BlackjackDeck
 import BlackjackCard
 import BlackjackSound
 import BlackjackGame
-
+import BlackjackSkin
 Rectangle {
     visible: true
     width: 800
@@ -15,32 +16,93 @@ Rectangle {
     SoundMy {
         id: sound
     }
+    Skin
+    {
+        id: skin
+    }
 
     Game {
         id: game
-        onWinOccurred: displayMessage("Ви виграли!")
-        onBustOccurred: displayMessage("Перебір у гравця! Ви програли.")
-        onRoundEnded: displayMessage(result)
+
+        onBustOccurred:
+        {
+            results.text = game.determineWinner();
+
+        }
+        onWinOccurred:
+        {
+
+            balance.text = "Player balance: " + game.getPlayerBalance(); // Оновлюємо баланс після виграшу
+        }
+        onRoundEnded: {
+               balance.text = "Player balance: " + game.getPlayerBalance(); // Оновлюємо баланс після раунду
+               game.resetGame();  // Починаємо новий раунд
+           }
+        onGameReset:
+        {
+            resetGameUI()  // Очищаємо карти в UI при скиданні гри
+        }
     }
 
     property int playerScore: 0
     property int dealerScore: 0
     property string currentCardImage: "" // Поточне зображення карти
     property int cardTarget: 0 // 0 - гравець, 1 - дилер
+    property bool betPlaced: false
+    property int playerBet: 0
 
-    function displayMessage(message) {
-        resultText.text = message
-        resultText.visible = true
+
+    // Відображення балансу гравця
+    // Баланс гравця та поле для ставки
+
+
+
+    function resetGameUI() {
+
+        clearResultsModesTimer.start();
+        playerScore = 0;              // Скидання очок гравця
+        dealerScore = 0;              // Скидання очок дилера
+        playerButton.visible = false; // Сховати кнопку "Взяти карту"
+        dealerButton.visible = false;
+        clearResultsTextTimer.start();
+
+        openBetDialogTimer.start();
+      }
+
+    Timer {
+        id: clearBustResultTimer
+        interval: 1000  // Затримка 4 секунди
+        repeat: false
+        onTriggered: {
+            resetGameUI();  // Очищаємо інтерфейс після затримки
+        }
+    }
+    Timer {
+        id: clearResultsModesTimer
+        interval: 4000  // Затримка 4 секунди
+        repeat: false
+        onTriggered: {
+            playerCardsModel.clear();     // Очищення карт гравця
+            dealerCardsModel.clear();   // Очищаємо текст результату після затримки
+        }
+    }
+    Timer {
+        id: clearResultsTextTimer
+        interval: 4000  // Затримка 4 секунди
+        repeat: false
+        onTriggered: {
+            results.text = "";  // Очищаємо текст результату після затримки
+        }
     }
 
-    // Повідомлення про результат гри
-    Text {
-        id: resultText
-        text: ""
-        font.pixelSize: 24
-        color: "yellow"
-        anchors.centerIn: parent
-        visible: false
+
+    Timer {
+        id: openBetDialogTimer
+        interval: 3000 // Затримка 3 секунди
+        repeat: false
+        onTriggered: {
+            inputDialog.open();
+        }
     }
 
     // Drawer меню для налаштувань гучності та звуку
@@ -94,6 +156,20 @@ Rectangle {
                     }
                 }
             }
+            Label {
+                           text: "Skin Options"
+                           font.pixelSize: 18
+                       }
+
+                       Button {
+                           text: "Black Back"
+                           onClicked: skin.setBackImage("qrc:/back_black.png")
+                       }
+
+                       Button {
+                           text: "Green Back"
+                           onClicked: skin.setBackImage("qrc:/back_green.png")
+                       }
         }
     }
 
@@ -103,6 +179,8 @@ Rectangle {
         if (imagePath) {
             currentCardImage = imagePath;
             playerScore = game.getScopePlayer();
+            sound.playCardSound();
+
             cardImage.state = "toPlayer";
             resetStateTimer.start();
         } else {
@@ -116,6 +194,7 @@ Rectangle {
         if (imagePath) {
             currentCardImage = imagePath;
             dealerScore = game.getScopeDealer();
+            sound.playCardSound();
             cardImage.state = "toDealer";
             resetStateTimer.start();
         } else {
@@ -126,7 +205,7 @@ Rectangle {
     // Початкове відтворення фонової музики та старт гри
     Component.onCompleted: {
         sound.backgroundSound();
-        firstTimer.start();
+
     }
 
     // Таймери для роздачі початкових карт
@@ -181,14 +260,24 @@ Rectangle {
             id: backDeck
             width: parent.width
             height: parent.height
-            source: "qrc:/gray_back.png"
+            source: skin.backImage
         }
     }
+    Text {
+        id: balance
+        text: "Player balance: " + game.getPlayerBalance()
+        font.pixelSize: 24
+        anchors.top: topRight.bottom
+        anchors.right: parent.right
+        color: "white"
+    }
+
+
 
     // Відображення рахунку гравця
     Text {
         id: playerScoreText
-        text: "Очки гравця: " + playerScore
+        text: "Player points: " + playerScore
         font.pixelSize: 24
         anchors.bottom: playerHand.top
         anchors.horizontalCenter: playerHand.horizontalCenter
@@ -198,7 +287,7 @@ Rectangle {
     // Відображення рахунку дилера
     Text {
         id: dealerScoreText
-        text: "Очки дилера: " + dealerScore
+        text: "Dealer points: " + dealerScore
         font.pixelSize: 24
         anchors.bottom: dealerHand.top
         anchors.horizontalCenter: dealerHand.horizontalCenter
@@ -212,6 +301,70 @@ Rectangle {
         anchors.horizontalCenter: parent.horizontalCenter
         color: "white"
     }
+
+    Button {
+        text: qsTr("Input bet")
+        anchors.bottom: parent.bottom
+        anchors.left: parent.left
+        onClicked:
+        {
+            inputDialog.open()
+
+
+        }
+
+
+        Dialog {
+            id: inputDialog
+            x: (parent.width - width) / 2
+            y: (parent.height - height) / 2
+            parent: Overlay.overlay
+
+            focus: true
+            modal: true
+            title: qsTr("Input")
+            standardButtons: Dialog.Ok | Dialog.Cancel
+
+            onAccepted: {
+                if (betField.text !== "" && parseInt(betField.text) > 0) {
+                    playerBet = parseInt(betField.text);  // Зберігаємо ставку
+                    game.setPlayerBet(playerBet);
+                     balance.text = "player balance: " + game.getPlayerBalance()
+                    betPlaced = true;
+                    startGameAfterBet();
+                    playerButton.visible = true   // Блокуємо кнопки hit і stand
+                    dealerButton.visible = true// Починаємо гру
+                } else {
+                    console.log("Невірне значення ставки");
+                }
+            }
+
+            ColumnLayout {
+                spacing: 20
+                anchors.fill: parent
+
+                Label {
+                    elide: Label.ElideRight
+                    text: qsTr("Please enter bet")
+                    Layout.fillWidth: true
+                }
+                TextField {
+                    id: betField
+                    focus: true
+                    placeholderText: qsTr("Bet")
+                    Layout.fillWidth: true
+                    inputMethodHints: Qt.ImhDigitsOnly  // Тільки числа
+                }
+            }
+        }
+    }
+
+    function startGameAfterBet() {
+           // Увімкнення кнопок після встановлення ставки
+           playerButton.enabled = true
+           dealerButton.enabled = true
+           firstTimer.start();  // Запускаємо перший таймер для роздачі карт після ставки
+       }
 
     ListModel {
         id: playerCardsModel
@@ -306,36 +459,39 @@ Rectangle {
         }
     }
 
-    Button {
-        id: playerButton
-        text: "Взяти карту"
-        anchors.left: parent.left
-        anchors.leftMargin: 20
-        anchors.bottom: parent.bottom
-        anchors.bottomMargin: 20
-        enabled: !buttonLockTimer.running
-        onClicked: {
-            sound.playCardSound();
-            drawCardForPlayerF();
-            buttonLockTimer.start();
-        }
-    }
 
-    Button {
-        id: dealerButton
-        text: "Зупинитися"
+    Column {
         anchors.right: parent.right
-        anchors.rightMargin: 20
         anchors.bottom: parent.bottom
-        anchors.bottomMargin: 20
-        enabled: !buttonLockTimer.running
-        onClicked: {
-            sound.playCardSound();
-            dealerStartDelayTimer.start();  // Запускаємо таймер для паузи перед автоматичним добором
-            buttonLockTimer.start();
+        spacing: 20
 
+        Button {
+            id: playerButton
+            text: "Hit"
+            visible: false
+            enabled: !buttonLockTimer.running
+            onClicked: {
+                sound.playCardSound();
+                drawCardForPlayerF();
+                buttonLockTimer.start();
+            }
+        }
+
+        Button {
+            id: dealerButton
+            text: "Stand"
+            visible: false
+            enabled:{
+                !buttonLockTimer.running
+            }
+            onClicked: {
+                sound.playCardSound();
+                dealerStartDelayTimer.start();  // Запускаємо таймер для паузи перед автоматичним добором
+                buttonLockTimer.start();
+            }
         }
     }
+
 
     // Таймер для початкової паузи перед початком автоматичного добору
     Timer {
@@ -356,14 +512,16 @@ Rectangle {
         repeat: true
         onTriggered: {
             if (game.shouldDealerDraw()) {
-                drawCardForDealerF();  // Дилер бере карту
+                drawCardForDealerF();
+
                 dealerDrawPauseTimer.start();  // Запускаємо таймер для затримки між картами
                 dealerAutoDrawTimer.stop();
                 results.text = game.determineWinner();
                 // Зупиняємо основний таймер на час паузи
             } else {
                 dealerAutoDrawTimer.stop();  // Зупиняємо таймер, коли карти більше брати не потрібно
-                game.endRound();  // Завершуємо раунд і визначаємо переможця
+                game.endRound();
+                // Завершуємо раунд і визначаємо переможця
             }
         }
     }

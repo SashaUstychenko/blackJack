@@ -8,7 +8,7 @@ Sound::Sound(QObject *parent) : QObject(parent) {
 
 
     backgroundSound_.setAudioOutput(&audioOutput1_);
-    audioOutput_.setVolume(0.5);
+    audioOutput_.setVolume(0.3);
     backgroundSound_.setSource(QUrl("qrc:/soung/fon.mp3"));
     backgroundSound_.setLoops(QMediaPlayer::Infinite);
 

@@ -47,6 +47,38 @@
                     "access": "public",
                     "name": "shouldDealerDraw",
                     "returnType": "bool"
+                },
+                {
+                    "access": "public",
+                    "name": "getPlayerBalance",
+                    "returnType": "int"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "amount",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "placeBet",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "bet",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setPlayerBet",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "handleWin",
+                    "returnType": "void"
                 }
             ],
             "object": true,
@@ -55,6 +87,11 @@
                 {
                     "access": "public",
                     "name": "gameStarted",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "gameReset",
                     "returnType": "void"
                 },
                 {

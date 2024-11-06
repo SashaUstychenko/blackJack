@@ -54,6 +54,9 @@
         <file>queen_of_spades.png</file>
         <file>table.jpg</file>
         <file>jack_of_spades.png</file>
+        <file>card back black.png</file>
+        <file>back_green.png</file>
+        <file>back_black.png</file>
     </qresource>
     <qresource prefix="/soung">
         <file>swish.m4a</file>

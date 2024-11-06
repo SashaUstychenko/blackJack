@@ -6,12 +6,16 @@ Game::Game(QObject *parent) : QObject(parent), deck_(this), player_(this), deale
 }
 
 void Game::startNewGame() {
+    resetGame();
+}
+void Game::resetGame() {
     deck_.resetDeck();
     player_.clearHand();
     dealer_.clearHand();
-    emit gameStarted();
-}
 
+    playerBet_ = 0; // Очищення ставки
+    emit gameReset(); // Повідомляємо QML про початок нової гри
+}
 QString Game::drawCardForPlayer() {
     auto card = deck_.drawCard();
     if (card) {
@@ -40,8 +44,12 @@ void Game::endRound() {
     while (dealer_.shouldDrawCard()) {
         drawCardForDealer();
     }
+
     QString result = determineWinner();
-    emit roundEnded(result);
+    if (result.contains("Гравець виграє")) {
+        handleWin(); // Додаємо виграш до балансу
+    }
+    emit roundEnded(result); // Сигнал для відображення результату
 }
 
 QString Game::determineWinner() const {
@@ -57,14 +65,17 @@ QString Game::determineWinner() const {
         return "Нічия!";
     }
 }
-
-void Game::resetGame() {
-    deck_.resetDeck();
-    player_.clearHand();
-    dealer_.clearHand();
-    startNewGame();
+void Game::handleWin() {
+    player_.adjustBalance(playerBet_ * 2); // Додаємо виграш до балансу (подвійна ставка)
 }
 
+void Game::handleBetResults(bool playerWon) {
+    int betAmount = player_.bet();
+    if (playerWon) {
+        player_.adjustBalance(betAmount * 2);  // Подвоюємо виграш
+    }
+    player_.placeBet(0);  // Очищуємо ставку після раунду
+}
 int Game::getScopePlayer() {
     return player_.score();
 }
@@ -75,6 +86,23 @@ int Game::getScopeDealer() {
 
 bool Game::shouldDealerDraw() const {
     return dealer_.shouldDrawCard();
+}
+
+int Game::getPlayerBalance()const
+{
+   return player_.balance();
+
+}
+// Game.cpp
+void Game::setPlayerBet(int bet) {
+    playerBet_ = bet;
+    player_.placeBet(bet);  // Встановлюємо ставку гравця
+}
+
+
+void Game::placeBet(int amount) {
+    player_.placeBet(amount);  // Викликає метод для встановлення ставки у гравця
+    startNewGame();  // Після встановлення ставки починається новий раунд
 }
 
 void Game::checkForBust() {

@@ -1,5 +1,6 @@
 appblackjack_autogen/timestamp: \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/QObject \
+	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/QString \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/QUrl \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/QVector \
 	/home/zirer/Qt/6.8.0/gcc_64/include/QtCore/q20functional.h \
@@ -975,6 +976,8 @@ appblackjack_autogen/timestamp: \
 	/home/zirer/zirerfile/QtProjects/blackjack/player.cpp \
 	/home/zirer/zirerfile/QtProjects/blackjack/player.h \
 	/home/zirer/zirerfile/QtProjects/blackjack/resources.qrc \
+	/home/zirer/zirerfile/QtProjects/blackjack/skin.cpp \
+	/home/zirer/zirerfile/QtProjects/blackjack/skin.h \
 	/home/zirer/zirerfile/QtProjects/blackjack/sound.cpp \
 	/home/zirer/zirerfile/QtProjects/blackjack/sound.h \
 	/usr/include/alloca.h \

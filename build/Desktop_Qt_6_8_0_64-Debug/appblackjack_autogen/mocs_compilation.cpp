@@ -5,4 +5,5 @@
 #include "EWIEGA46WW/moc_game.cpp"
 #include "EWIEGA46WW/moc_participant.cpp"
 #include "EWIEGA46WW/moc_player.cpp"
+#include "EWIEGA46WW/moc_skin.cpp"
 #include "EWIEGA46WW/moc_sound.cpp"
