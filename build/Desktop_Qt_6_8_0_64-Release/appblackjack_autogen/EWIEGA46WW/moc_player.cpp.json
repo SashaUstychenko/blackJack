@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "Player",
+            "object": true,
+            "qualifiedClassName": "Player",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "Participant"
+                }
+            ]
+        }
+    ],
+    "inputFile": "player.h",
+    "outputRevision": 68
+}

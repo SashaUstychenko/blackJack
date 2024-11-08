@@ -19,13 +19,6 @@ namespace _blackjack_Initial_qml {
         reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
     };
 }
-namespace _blackjack_Sooss_qml { 
-    extern const unsigned char qmlData[];
-    extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
-    const QQmlPrivate::CachedQmlUnit unit = {
-        reinterpret_cast<const QV4::CompiledData::Unit*>(&qmlData), &aotBuiltFunctions[0], nullptr
-    };
-}
 namespace _blackjack_Test1_qml { 
     extern const unsigned char qmlData[];
     extern const QQmlPrivate::AOTCompiledFunction aotBuiltFunctions[];
@@ -49,7 +42,6 @@ Q_GLOBAL_STATIC(Registry, unitRegistry)
 Registry::Registry() {
     resourcePathToCachedUnit.insert(QStringLiteral("/blackjack/Main.qml"), &QmlCacheGeneratedCode::_blackjack_Main_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/blackjack/Initial.qml"), &QmlCacheGeneratedCode::_blackjack_Initial_qml::unit);
-    resourcePathToCachedUnit.insert(QStringLiteral("/blackjack/Sooss.qml"), &QmlCacheGeneratedCode::_blackjack_Sooss_qml::unit);
     resourcePathToCachedUnit.insert(QStringLiteral("/blackjack/Test1.qml"), &QmlCacheGeneratedCode::_blackjack_Test1_qml::unit);
     QQmlPrivate::RegisterQmlUnitCacheHook registration;
     registration.structVersion = 0;

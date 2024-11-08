@@ -1,4 +1,8 @@
 /home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/appblackjack_autogen/include/../EWIEGA46WW/moc_card.cpp.json
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/appblackjack_autogen/include/../EWIEGA46WW/moc_dealer.cpp.json
 /home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/appblackjack_autogen/include/../EWIEGA46WW/moc_deck.cpp.json
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/appblackjack_autogen/include/../EWIEGA46WW/moc_game.cpp.json
 /home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/appblackjack_autogen/include/../EWIEGA46WW/moc_participant.cpp.json
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/appblackjack_autogen/include/../EWIEGA46WW/moc_player.cpp.json
+/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/appblackjack_autogen/include/../EWIEGA46WW/moc_skin.cpp.json
 /home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/appblackjack_autogen/include/../EWIEGA46WW/moc_sound.cpp.json

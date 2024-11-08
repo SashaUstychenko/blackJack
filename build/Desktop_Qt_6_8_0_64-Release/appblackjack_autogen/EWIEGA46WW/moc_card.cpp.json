@@ -1,0 +1,85 @@
+{
+    "classes": [
+        {
+            "className": "Card",
+            "enums": [
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Suit",
+                    "values": [
+                        "Hearts",
+                        "Diamonds",
+                        "Clubs",
+                        "Spades"
+                    ]
+                },
+                {
+                    "isClass": false,
+                    "isFlag": false,
+                    "name": "Rank",
+                    "values": [
+                        "Ace",
+                        "Two",
+                        "Three",
+                        "Four",
+                        "Five",
+                        "Six",
+                        "Seven",
+                        "Eight",
+                        "Nine",
+                        "Ten",
+                        "Jack",
+                        "Queen",
+                        "King"
+                    ]
+                }
+            ],
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "imagePath",
+                    "returnType": "QString"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 0,
+                    "name": "rank",
+                    "read": "rank",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                },
+                {
+                    "constant": true,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "suit",
+                    "read": "suit",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "Card",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "card.h",
+    "outputRevision": 68
+}

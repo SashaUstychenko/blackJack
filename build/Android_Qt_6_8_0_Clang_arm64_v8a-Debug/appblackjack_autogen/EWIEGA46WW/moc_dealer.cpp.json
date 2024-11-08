@@ -1,0 +1,17 @@
+{
+    "classes": [
+        {
+            "className": "Dealer",
+            "object": true,
+            "qualifiedClassName": "Dealer",
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "Participant"
+                }
+            ]
+        }
+    ],
+    "inputFile": "dealer.h",
+    "outputRevision": 68
+}

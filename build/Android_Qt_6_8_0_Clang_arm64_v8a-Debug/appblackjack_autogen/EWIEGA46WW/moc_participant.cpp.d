@@ -695,6 +695,7 @@
   /home/zirer/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/wctype.h \
   /home/zirer/Android/Sdk/ndk/26.1.10909125/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/xlocale.h \
   /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/QObject \
+  /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/QVector \
   /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/q20functional.h \
   /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/q20memory.h \
   /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/q20type_traits.h \
@@ -790,6 +791,8 @@
   /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qtypeinfo.h \
   /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qtypes.h \
   /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qutf8stringview.h \
+  /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qvector.h \
   /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qversiontagging.h \
   /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qxptype_traits.h \
-  /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qyieldcpu.h
+  /home/zirer/Qt/6.8.0/android_arm64_v8a/include/QtCore/qyieldcpu.h \
+  /home/zirer/zirerfile/QtProjects/blackjack/card.h

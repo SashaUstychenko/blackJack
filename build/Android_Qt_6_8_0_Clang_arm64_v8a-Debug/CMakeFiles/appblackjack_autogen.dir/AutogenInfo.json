@@ -985,15 +985,39 @@
 			null
 		],
 		[
+			"/home/zirer/zirerfile/QtProjects/blackjack/dealer.h",
+			"MU",
+			"EWIEGA46WW/moc_dealer.cpp",
+			null
+		],
+		[
 			"/home/zirer/zirerfile/QtProjects/blackjack/deck.h",
 			"MU",
 			"EWIEGA46WW/moc_deck.cpp",
 			null
 		],
 		[
+			"/home/zirer/zirerfile/QtProjects/blackjack/game.h",
+			"MU",
+			"EWIEGA46WW/moc_game.cpp",
+			null
+		],
+		[
 			"/home/zirer/zirerfile/QtProjects/blackjack/participant.h",
 			"MU",
 			"EWIEGA46WW/moc_participant.cpp",
+			null
+		],
+		[
+			"/home/zirer/zirerfile/QtProjects/blackjack/player.h",
+			"MU",
+			"EWIEGA46WW/moc_player.cpp",
+			null
+		],
+		[
+			"/home/zirer/zirerfile/QtProjects/blackjack/skin.h",
+			"MU",
+			"EWIEGA46WW/moc_skin.cpp",
 			null
 		],
 		[
@@ -1079,7 +1103,6 @@
 	[
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/qmlcache/appblackjack_Initial_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/qmlcache/appblackjack_Main_qml.cpp",
-		"/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/qmlcache/appblackjack_Sooss_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/qmlcache/appblackjack_Test1_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/qmlcache/appblackjack_qmlcache_loader.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/qrc_appblackjack_raw_qml_0.cpp",
@@ -1097,13 +1120,17 @@
 	"SOURCES" : 
 	[
 		[ "/home/zirer/zirerfile/QtProjects/blackjack/card.cpp", "MU", null ],
+		[ "/home/zirer/zirerfile/QtProjects/blackjack/dealer.cpp", "MU", null ],
 		[ "/home/zirer/zirerfile/QtProjects/blackjack/deck.cpp", "MU", null ],
+		[ "/home/zirer/zirerfile/QtProjects/blackjack/game.cpp", "MU", null ],
 		[ "/home/zirer/zirerfile/QtProjects/blackjack/main.cpp", "MU", null ],
 		[
 			"/home/zirer/zirerfile/QtProjects/blackjack/participant.cpp",
 			"MU",
 			null
 		],
+		[ "/home/zirer/zirerfile/QtProjects/blackjack/player.cpp", "MU", null ],
+		[ "/home/zirer/zirerfile/QtProjects/blackjack/skin.cpp", "MU", null ],
 		[ "/home/zirer/zirerfile/QtProjects/blackjack/sound.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
@@ -1112,7 +1139,6 @@
 	[
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/qmlcache/appblackjack_Initial_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/qmlcache/appblackjack_Main_qml.cpp",
-		"/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/qmlcache/appblackjack_Sooss_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/qmlcache/appblackjack_Test1_qml.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/qmlcache/appblackjack_qmlcache_loader.cpp",
 		"/home/zirer/zirerfile/QtProjects/blackjack/build/Android_Qt_6_8_0_Clang_arm64_v8a-Debug/.rcc/qrc_appblackjack_raw_qml_0.cpp",

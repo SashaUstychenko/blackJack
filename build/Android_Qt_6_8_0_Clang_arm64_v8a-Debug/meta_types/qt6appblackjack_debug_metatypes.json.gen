@@ -87,14 +87,24 @@
     {
         "classes": [
             {
-                "className": "Deck",
-                "methods": [
+                "className": "Dealer",
+                "object": true,
+                "qualifiedClassName": "Dealer",
+                "superClasses": [
                     {
                         "access": "public",
-                        "name": "drawCard",
-                        "returnType": "QString"
+                        "name": "Participant"
                     }
-                ],
+                ]
+            }
+        ],
+        "inputFile": "dealer.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Deck",
                 "object": true,
                 "qualifiedClassName": "Deck",
                 "superClasses": [
@@ -106,6 +116,157 @@
             }
         ],
         "inputFile": "deck.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Game",
+                "methods": [
+                    {
+                        "access": "public",
+                        "name": "startNewGame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "drawCardForPlayer",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "drawCardForDealer",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "endRound",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "resetGame",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getScopePlayer",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getScopeDealer",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "name": "determineWinner",
+                        "returnType": "QString"
+                    },
+                    {
+                        "access": "public",
+                        "name": "shouldDealerDraw",
+                        "returnType": "bool"
+                    },
+                    {
+                        "access": "public",
+                        "name": "getPlayerBalance",
+                        "returnType": "int"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "amount",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "placeBet",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "bet",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "setPlayerBet",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "handleWin",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "qualifiedClassName": "Game",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "gameStarted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "gameReset",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "playerTurn",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "dealerTurnStarted",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "roundEnded",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "result",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "winOccurred",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "message",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "bustOccurred",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "game.h",
         "outputRevision": 68
     },
     {
@@ -123,6 +284,77 @@
             }
         ],
         "inputFile": "participant.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Player",
+                "object": true,
+                "qualifiedClassName": "Player",
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "Participant"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "player.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "Skin",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newBackImage",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "setBackImage",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": false,
+                        "index": 0,
+                        "name": "backImage",
+                        "notify": "backImageChanged",
+                        "read": "backImage",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setBackImage"
+                    }
+                ],
+                "qualifiedClassName": "Skin",
+                "signals": [
+                    {
+                        "access": "public",
+                        "name": "backImageChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "skin.h",
         "outputRevision": 68
     },
     {

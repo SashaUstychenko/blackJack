@@ -309,6 +309,7 @@ Rectangle {
         onClicked:
         {
             inputDialog.open()
+            stopBtnAll.start();
 
 
         }
@@ -333,7 +334,10 @@ Rectangle {
                     betPlaced = true;
                     startGameAfterBet();
                     playerButton.visible = true   // Блокуємо кнопки hit і stand
-                    dealerButton.visible = true// Починаємо гру
+                    dealerButton.visible = true
+
+
+                    // Починаємо гру
                 } else {
                     console.log("Невірне значення ставки");
                 }
@@ -485,10 +489,20 @@ Rectangle {
                 !buttonLockTimer.running
             }
             onClicked: {
+
                 sound.playCardSound();
                 dealerStartDelayTimer.start();  // Запускаємо таймер для паузи перед автоматичним добором
                 buttonLockTimer.start();
             }
+        }
+    }
+    Timer {
+        id: stopBtnAll
+        interval: 4000  // Затримка 4 секунди
+        repeat: false
+        onTriggered: {
+            playerButton.enabled = false;
+            dealerButton.enabled = false;
         }
     }
 
